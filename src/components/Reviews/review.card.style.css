@@ -1,0 +1,23 @@
+.review-card {
+    background-color: #FF6F0026;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 367px;
+    height: 460px;
+}
+
+.review-header p {
+    max-width: fit-content;
+}
+
+.review-stars {
+    max-width: fit-content;
+}
+
+.review-video {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}

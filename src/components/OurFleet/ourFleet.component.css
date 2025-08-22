@@ -1,0 +1,11 @@
+.car_card_wrapper {
+    gap: 82px;
+}
+
+.car-card {
+    max-width: 385px;
+}
+
+.our_fleet-section .button-wrapper button {
+    max-width: 385px;
+}

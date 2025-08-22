@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+    .free-lesson-promo {
+        padding: 20px !important;
+    }
+}
+
+.advantages-list-item-img {
+    max-width: fit-content;
+}
+
+.advantages-list-item {
+    gap: 15px;
+    flex-wrap: nowrap;
+}
+
+.advantages-list {
+    gap: 50px;
+}
+
+.free-lesson-promo {
+    background-color: rgba(9, 132, 255, 0.15);
+    padding: 40px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.advantages-list-item-text {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.free-lesson-promo__title {
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+.stars {
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+
+.free-lesson-promo-form {
+    position: absolute;
+    right: 0;
+}
+
+.free-lesson-promo-form form {
+    gap: 20px;
+}
+
+.free-lesson-promo-form form input {
+    height: 50px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.free-lesson-promo-form form input::placeholder {
+    color: #000;
+    opacity: .45;
+}

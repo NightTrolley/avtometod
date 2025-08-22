@@ -1,0 +1,12 @@
+.car {
+    position: absolute;
+    top: -5px;
+}
+
+.road {
+    position: relative;
+}
+
+.road-img {
+    position: absolute;
+}

@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+    .achievement-card {
+        max-height: 280px;
+        max-width: 280px;
+    }
+}
+
+.achievement-card-content {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.achievements-grid {
+    flex-wrap: nowrap;
+    gap: 57px;
+}
+
+.achievement-card {
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.15);
+    border-radius: 15px 15px 15px 15px;
+    padding: 25px 0;
+}
+
+.orange-accent {
+    color: var(--primary-orange);
+    font-size: 30px;
+}
+
+.blue-accent {
+    color: var(--primary-blue);
+    font-size: 30px;
+}
+
+.achievement-section {
+    margin-top: 30px;
+}

@@ -1,0 +1,24 @@
+footer {
+    box-shadow: 0 0 10px 0 rgba(1,1,1,.25);
+    border-radius: 25px 25px 25px 25px;
+    padding: 40px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.copyright {
+    text-align: end;
+}
+
+.page-links a{
+    color: #000;
+    text-decoration: none;
+}
+
+.page-links {
+    gap: 15px;
+}
+
+.footer-contact-wrapper {
+    gap: 15px;
+}

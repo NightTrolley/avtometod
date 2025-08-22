@@ -1,0 +1,209 @@
+@media (max-width: 768px) {
+    .feature-list {
+        justify-content: center !important;
+    }
+
+    .course-wrapper {
+        gap: 35px;
+    }
+
+    .peculiarities-item {
+        max-width: 100% !important;
+        text-align: center;
+        padding: 32px !important;
+    }
+
+    .slogan-wrapper {
+        gap: 20px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .step {
+        min-width: 630px;
+    }
+}
+
+.practice-with-instructor {
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.education-b-page .description {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.feature-block-title {
+    color: var(--primary-orange);
+    font-weight: 600;
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.feature-item-text {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.feature-item-text span {
+    color: var(--primary-orange);
+    font-weight: 700;
+}
+
+.feature-item:nth-child(2) img {
+    min-width: 220px;
+}
+
+.course-steps .title {
+    font-weight: 600;
+    font-size: 39px;
+    margin-bottom: 40px;
+}
+
+.step {
+    background-color: #0984FF26;
+    padding: 30px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 1.5;
+}
+
+.step span {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.step:nth-child(1) {
+    background-image: url("/public/icons/step-1-card-bg.svg");
+    background-repeat: no-repeat;
+}
+
+.step:nth-child(2) {
+    display: flex;
+    background-image: url("/public/icons/step-2-card-bg.svg");
+    background-repeat: no-repeat;
+}
+
+.step:nth-child(2) p {
+    margin: auto;
+    text-align: center;
+}
+
+.prices .title {
+    font-weight: 600;
+    font-size: 39px;
+    margin-bottom: 30px;
+}
+
+.prices .subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.start-title {
+    font-weight: 600;
+    font-size: 35px;
+    background-color: #0984FF26;
+    padding: 40px 0;
+}
+
+.program-list-wrapper span {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.program-list-wrapper {
+    font-weight: 500;
+    font-size: 23px;
+    background-color: #FF6F0026;
+    padding: 40px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.learning-block-wrapper .section-title {
+    margin-bottom: 40px;
+}
+
+.program-list-title {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.peculiarities-item {
+    background-color: #0984FF26;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 23px;
+    max-width: 304px;
+}
+
+.peculiarities-list {
+    gap: 26px;
+}
+
+.peculiarities-block .section-title {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.peculiarities-item span {
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.peculiarities-item {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.how-to-start-block {
+    margin-bottom: 40px;
+}
+
+.after-learning .section-title{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.skill p span {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.skill p {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.slogan-wrapper {
+    justify-content: center;
+    gap: 170px;
+}
+
+.slogan {
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.addresses {
+    font-weight: 500;
+    font-size: 25px;
+}

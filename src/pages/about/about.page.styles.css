@@ -1,0 +1,240 @@
+.advantage-number {
+    width: 70px;
+    height: 70px;
+    background-color: #FF6F0073;
+    padding: 14px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.advantage-item {
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.advantage-text {
+    font-size: 22px;
+}
+
+.home-img {
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.our-advantages {
+    position: relative;
+}
+
+.education-process-item-number {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.education-process-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.education-process-item:last-child:after {
+    display: none;
+}
+
+.education-process-item:after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-right: 4px solid var(--primary-blue);
+    width: 0;
+    height: 30px;
+    top: 60px;
+    left: 30px;
+
+}
+
+.education-process-item-number p {
+    margin: 0;
+}
+
+.education-process-item-text {
+    width: max-content;
+}
+
+.education-process-item-number {
+    background-color: var(--primary-blue);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    padding: 14px;
+    box-shadow: 0 0 20px var(--primary-blue);
+}
+
+.practice .education-process-item-number {
+    background-color: var(--primary-orange);
+    box-shadow: 0 0 20px var(--primary-orange);
+}
+
+.practice .education-process-item:after {
+    border-color: var(--primary-orange);
+}
+
+.item-wrapper {
+    align-items: center;
+}
+
+.why-choose-card {
+    background-color: #0984FF26;
+    padding: 30px;
+    max-width: 272px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    max-height: 200px;
+}
+
+.card-title {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.cards-list {
+    gap: 74px;
+}
+
+.how-start {
+    background-color: #FF6F0026;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+.highlighting {
+    color: var(--primary-blue);
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.contacts-wrapper {
+    background-color: #FF6F0026;
+    padding: 40px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.contacts-wrapper p {
+    margin-top: 40px;
+}
+
+.about {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: #0984FF26;
+    padding: 40px;
+    position: relative;
+}
+
+.stars {
+    max-width: 420px;
+    max-height: 243px;
+}
+
+.about-title {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.about-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.page-title {
+    font-weight: 700;
+    font-size: 33px;
+    color: var(--primary-blue);
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 39px;
+    text-align: center;
+}
+
+.spacer-90 {
+    margin-bottom: 90px;
+}
+
+.spacer-40 {
+    margin-bottom: 40px;
+}
+
+.education-time {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.theory .title {
+    color: var(--primary-blue);
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 36px;
+}
+
+.practice .title {
+    color: var(--primary-orange);
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 36px;
+}
+
+.steps-title {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.steps {
+    font-weight: 500;
+    font-size: 20px;
+    gap: 14px;
+}
+
+.feature-text {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.contact-item span {
+    font-weight: 500;
+}
+
+.contact-item {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.advantage-list {
+    gap: 40px;
+}

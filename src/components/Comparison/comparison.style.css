@@ -1,0 +1,36 @@
+.other-school-price {
+    border: 3px solid var(--primary-orange);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px 0;
+    gap: 48px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.our-school-price {
+    border: 3px solid var(--primary-blue);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px 0;
+    gap: 48px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.comparison-card .title-wrapper {
+    font-size: 25px;
+    font-weight: 600;
+    gap: 30px;
+    display: flex;
+}
+
+.price-card-wrapper {
+    font-size: 28px;
+    font-weight: 500;
+    gap: 85px;
+}

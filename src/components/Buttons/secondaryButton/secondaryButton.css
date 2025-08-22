@@ -1,0 +1,9 @@
+.secondary-button {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: var(--primary-orange);
+    color: white;
+    border: none;
+    height: 50px;
+}

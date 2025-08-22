@@ -1,0 +1,41 @@
+.how-to-start-container {
+    background-color: #FF6F0026;
+    padding: 40px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.how-to-start-container .title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.start-steps {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.start-steps .steps {
+    line-height: 2.5;
+    height: 100%;
+}
+
+.how-to-start-form {
+    gap: 20px;
+    line-height: 130%;
+}
+
+.how-to-start-form input {
+    height: 50px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 20px;
+}
+
+.how-to-start-form input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+}

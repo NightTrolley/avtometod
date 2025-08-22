@@ -1,0 +1,9 @@
+.news-preview {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.news-card {
+    max-width: 367px;
+}
