@@ -26,10 +26,10 @@ const Header = () => {
                             <NavitemComponent class={"phone_block col-4"} firstText={"Номер телефона"}
                                               secondText={"+7 (999) 999-99-99"} icon={phone_icon}/>
                             <NavitemComponent class={"email_block col-4"} firstText={"E-mail"}
-                                              secondText={"info@automethod.ru"}
+                                              secondText={"info@avtometod.ru"}
                                               icon={email_icon}/>
                             <NavitemComponent class={"location_block col-4"} firstText={""}
-                                              secondText={"проспект Андропова, д.8"} icon={location_icon}/>
+                                              secondText={"Киевская улица 14"} icon={location_icon}/>
                         </div>
                         <div className="social-block">
                             <SocialComponent link={"/aas"} icon={telegram_icon} alt={"telegram"}/>
