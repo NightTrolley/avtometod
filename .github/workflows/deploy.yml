@@ -24,15 +24,20 @@ jobs:
       - name: Build project
         run: DISABLE_ESLINT_PLUGIN=true npm run build
 
-      - name: Deploy to VPS
+      - name: Deploy to server with RSync
+        uses: burnett01/rsync-deployments@6.0.0
+        with:
+          switches: -avz --delete
+          path: build/
+          remote_path: /var/www/avtometod/
+          remote_host: ${{ secrets.VPS_HOST }}
+          remote_user: ${{ secrets.VPS_USERNAME }}
+          remote_key: ${{ secrets.VPS_SSH_KEY }}
+
+      - name: Restart Nginx
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USERNAME }}
           key: ${{ secrets.VPS_SSH_KEY }}
-          script: |
-            cd /var/www/avtometod
-            git pull origin main
-            npm ci --production
-            npm run build
-            sudo systemctl restart nginx
+          script: sudo systemctl restart nginx
