@@ -1,4 +1,4 @@
-name: Deploy script
+name: Deploy to VPS
 
 on:
   push:
@@ -23,6 +23,16 @@ jobs:
 
       - name: Build project
         run: DISABLE_ESLINT_PLUGIN=true npm run build
+
+      - name: Debug secrets
+        run: |
+          echo "VPS_HOST length: ${#{{ secrets.VPS_HOST }}}"
+          echo "VPS_USERNAME length: ${#{{ secrets.VPS_USERNAME }}}"
+          echo "VPS_SSH_KEY length: ${#{{ secrets.VPS_SSH_KEY }}}"
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USERNAME: ${{ secrets.VPS_USERNAME }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
 
       - name: Deploy to VPS
         uses: appleboy/ssh-action@v1.0.3
