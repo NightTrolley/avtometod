@@ -4,69 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddb1d06-c7f7-4d59-816d-b47264a45f75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/icons/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/Achiwment/achivment.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/Achiwment/achivment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/Free-lesson/advantage.item.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/Free-lesson/free.lesson.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/Free-lesson/free.lesson.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buttons/button.main.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buttons/price.card.button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buttons/secondaryButton/secondaryButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Buttons/secondaryButton/secondaryButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Comparison/comparison.card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Comparison/comparison.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DrivingCourseCard/driving.courses.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DrivingCourseCard/drivingCourseCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EducationProcess/education.process.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EducationProcess/education.process.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EducationProcess/step.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Faq/faq.item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Faq/faq.item.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/footer.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/footer.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HowToStart/HowToStart.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HowToStart/howtostart.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Instructors/instructor.card.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Instructors/instructor.card.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News/news.card.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News/news.card.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OurFleet/ourFleet.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OurFleet/ourFleet.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reviews/review.card.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Reviews/review.card.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/aboutAdvantages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/comparison.data.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/drivingCoursesData.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/education.process.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/faq.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/fleet.data.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/news.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/review.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/whyChooseCards.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/NotFound/NotFound.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/NotFound/NotFoundPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/about/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/about/about.page.styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/about/advantage-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/about/card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/about/education.process.item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/education/education.b.page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/education/education.page.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/education/educationB.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/education/educationPage.js" afterDir="false" />
+    <list default="true" id="3ddb1d06-c7f7-4d59-816d-b47264a45f75" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NightTrolley"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NightTrolley/avtometod",
+    "accountId": "1b6e95bf-954c-4e27-848b-1491d5fdcce8"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -186,12 +138,25 @@
       <workItem from="1754257552427" duration="17000" />
       <workItem from="1754257615862" duration="4007000" />
       <workItem from="1754552579773" duration="40000" />
-      <workItem from="1755802431831" duration="2037000" />
+      <workItem from="1755802431831" duration="2572000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1755822086426</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755822086427</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
