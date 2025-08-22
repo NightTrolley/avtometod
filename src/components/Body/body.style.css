@@ -1,0 +1,228 @@
+@media (max-width: 768px) {
+    .news-cards-wrapper {
+        gap: 30px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .faq {
+        overflow-x: hidden;
+    }
+    .sign.center {
+        -webkit-transform: rotate(10deg) !important;
+        -moz-transform: rotate(10deg) !important;
+        -ms-transform: rotate(10deg) !important;
+        -o-transform: rotate(10deg) !important;
+        transform: rotate(10deg) !important;
+        left: 0 !important;
+        filter: blur(20px) !important;
+    }
+
+    .sign.bottom{
+        -webkit-transform: rotate(-10deg) !important;
+        -moz-transform: rotate(-10deg) !important;
+        -ms-transform: rotate(-10deg) !important;
+        -o-transform: rotate(-10deg) !important;
+        transform: rotate(-10deg) !important;
+        right: 0 !important;
+        filter: blur(10px) !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .spacer {
+        margin-bottom: 60px !important;
+    }
+}
+@media (max-width: 768px) {
+    .driving-courses_section .container {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .course-card {
+        width: 100% !important;
+    }
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.h3 {
+    font-weight: 600;
+    font-size: 39px;
+}
+
+.h6 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.advantage-text {
+    width: max-content;
+    padding: 0;
+}
+
+.check-img-wrapper {
+    width: max-content;
+    padding-right: 0;
+}
+
+.advantage-item {
+    gap: 10px;
+}
+
+.btn-block-wrapper {
+    gap: 50px;
+}
+
+.btn-block-wrapper .ghost-btn:before {
+    content: '';
+    background-color: var(--primary-blue);
+    height: 50px;
+    width: 2px;
+    position: absolute;
+    left: -25px;
+    top: -2px;
+}
+
+.driving-courses_section .title {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.comparison-wrapper {
+    background-color: #0984FF26;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+.comparison-section .h1 {
+    font-size: 39px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.comparison-section .h6 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.reviews-wrapper {
+    gap: 109px;
+}
+
+.reviews-wrapper > :last-child{
+    background-color: #0984FF26;
+}
+
+.reviews-wrapper > :last-child svg {
+    fill: var(--primary-blue);
+    opacity: 1;
+}
+
+.reviews-wrapper svg {
+    fill: var(--primary-orange);
+}
+
+.reviews .button-wrapper {
+    max-width: 367px;
+}
+
+.news-cards-wrapper {
+    gap: 109px;
+}
+
+.news .button-wrapper {
+    max-width: 367px;
+}
+
+.faq {
+    position: relative;
+}
+
+.faq-wrapper {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.25);
+    padding: 40px;
+    background: transparent;
+}
+
+.sign {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+}
+
+.sign.top {
+    right: -160px;
+    transform: rotate(20deg);
+    filter: blur(10px);
+    opacity: .6;
+}
+
+.sign.center {
+    bottom: 50%;
+    left: -130px;
+    filter: blur(5px);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+.sign.bottom {
+    bottom: 45px;
+    right: -110px;
+    filter: blur(20px);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.instructors-list > :last-child {
+    background-color: var(--primary-orange);
+}
+
+.contact-wrapper {
+    width: fit-content;
+}
+
+.spacer {
+    margin-bottom: 110px;
+}
+
+.btn-block-wrapper .button-wrapper{
+    max-width: 266px;
+}
+
+.advantage-block-wrapper h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.advantage-block-wrapper h3 {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.advantage-item {
+    font-size: 18px;
+    font-weight: 500;
+}

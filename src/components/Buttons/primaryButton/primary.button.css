@@ -1,0 +1,16 @@
+.call {
+    background-color: var(--primary-blue);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    max-height: 50px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn-block-wrapper .btn-primary {
+    min-height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}

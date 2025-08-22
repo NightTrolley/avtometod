@@ -1,0 +1,20 @@
+.social_link {
+    max-width: 40px;
+    max-height: 40px;
+    padding: 0;
+}
+
+.soclinks-wrapper {
+
+}
+
+.links:after {
+    content: "";
+    width: 2px;
+    height: 50px;
+    background-color: var(--primary-blue);
+}
+
+.links {
+    gap: 8px;
+}

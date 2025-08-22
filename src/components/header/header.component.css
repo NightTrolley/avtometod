@@ -1,0 +1,49 @@
+.header {
+    padding-top: 50px;
+    height: 135px;
+    margin-bottom: 110px;
+    gap: 20px;
+}
+
+.header .navbar {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.second-floor {
+    background-color: #FF6F0073;
+    height: 50px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-item .active {
+    font-weight: 800;
+}
+
+.second_floor a {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.divider {
+    width: 2px;
+    height: 50px;
+    background: var(--primary-blue);
+    margin: 0 10px;
+    flex-shrink: 0;
+}
+
+.social-block {
+    display: flex;
+    gap: 8px;
+}
+
+.navbar {
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.navbar-collapse {
+
+}
