@@ -12,6 +12,7 @@ import SocialComponent from "../Social/socialComponent";
 import {NavbarBrand, NavbarCollapse, NavItem,} from "react-bootstrap";
 import PrimaryButtonComponent from "../Buttons/primaryButton/primary.button.component";
 import {Link, NavLink} from "react-router";
+import React from "react";
 
 const Header = () => {
     return (
@@ -21,6 +22,67 @@ const Header = () => {
                     <NavbarBrand as={Link} to={"/"} className="col-2 me-4">
                         <img src="/icons/logo.svg" alt="" className="logo"/>
                     </NavbarBrand>
+
+                    <button className="navbar-toggler expand-btn" data-bs-toggle="collapse"
+                            data-bs-target="#collapse-menu" aria-controls="collapse-menu" aria-expanded="false">
+                        <img src="/icons/expand-btn.svg" alt=""/>
+                    </button>
+                    <div className="collapse" id="collapse-menu">
+                        <div className="collapse-menu-wrapper col-10 d-flex flex-column">
+                            <button className="navbar-toggler menu-close-btn" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-menu" aria-controls="collapse-menu"
+                                    aria-expanded="false">
+                            </button>
+                            <div className="logo-wrapper col-6 mx-auto">
+                                <img src="/icons/logo.svg" alt="" className="img-fluid"/>
+                            </div>
+                            <div className="links">
+                                <div className="collapse-menu-links d-flex flex-column">
+                                    <div>
+                                        <Link to="/">Обучение</Link>
+                                    </div>
+                                    <div>
+                                        <Link to="/">О нас</Link>
+                                    </div>
+                                    <div>
+                                        <Link to="/">онлайн</Link>
+                                    </div>
+                                    <div>
+                                        <Link to="/">Контакты</Link>
+                                    </div>
+                                    <div>
+                                        <Link to="/">Блог</Link>
+                                    </div>
+                                    <div>
+                                        <Link to="/">Вакансии</Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <span className="collapse-menu-divider"></span>
+                            <div className="soc-links text-center mx-auto">
+                                <p>Присоединиться</p>
+                                <div className="soc-links-list d-flex">
+                                    <SocialComponent link={"/aas"} icon={telegram_icon} alt={"telegram"}/>
+                                    <SocialComponent link={"/aas"} icon={vk_icon} alt={"vk"}/>
+                                    <SocialComponent link={"/aas"} icon={wa_icon} alt={"whatsapp"}/>
+                                    <SocialComponent link={"/aas"} icon={inst_icon} alt={"instagram"}/>
+                                </div>
+
+                            </div>
+                            <div className="contacts text-center mx-auto">
+                                <p>Связаться с нами</p>
+                                <p className="email">
+                                    info@automethod.ru
+                                </p>
+                                <p className="address">
+                                    проспект Андропова, д.8
+                                </p>
+                                <p className="phone-number">
+                                    +7 (999) 999-99-99
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     <NavbarCollapse>
                         <div className="contact-wrapper col row g-0">
                             <NavitemComponent class={"phone_block col-4"} firstText={"Номер телефона"}
@@ -47,27 +109,34 @@ const Header = () => {
 
             <div className="container-fluid col-12 d-none d-md-block g-0 second-floor mb-5 ">
                 <div className="menu-wrapper h-100 row g-0 justify-content-center align-items-center">
-                        <NavItem className="col-1">
-                            <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/about">О нас</NavLink>
-                        </NavItem>
-                        <NavItem className="col-1">
-                            <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/education">Обучение</NavLink>
-                        </NavItem>
-                        <NavItem className="col-1">
-                            <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/" >Онлайн</NavLink>
-                        </NavItem>
-                        <NavItem className="col-1">
-                            <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/" >Блог</NavLink>
-                        </NavItem>
-                        <NavItem className="col-1">
-                            <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/" >Вакансии</NavLink>
-                        </NavItem>
-                        <NavItem className="col-1">
-                            <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/" >Оплата</NavLink>
-                        </NavItem>
-                        <NavItem className="col-1">
-                            <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/" >Контакты</NavLink>
-                        </NavItem>
+                    <NavItem className="col-1">
+                        <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"} to="/about">О
+                            нас</NavLink>
+                    </NavItem>
+                    <NavItem className="col-1">
+                        <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
+                                 to="/education">Обучение</NavLink>
+                    </NavItem>
+                    <NavItem className="col-1">
+                        <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
+                                 to="/">Онлайн</NavLink>
+                    </NavItem>
+                    <NavItem className="col-1">
+                        <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
+                                 to="/">Блог</NavLink>
+                    </NavItem>
+                    <NavItem className="col-1">
+                        <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
+                                 to="/">Вакансии</NavLink>
+                    </NavItem>
+                    <NavItem className="col-1">
+                        <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
+                                 to="/">Оплата</NavLink>
+                    </NavItem>
+                    <NavItem className="col-1">
+                        <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
+                                 to="/">Контакты</NavLink>
+                    </NavItem>
                 </div>
             </div>
         </div>
