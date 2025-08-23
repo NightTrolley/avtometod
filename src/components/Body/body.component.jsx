@@ -38,7 +38,7 @@ const BodyComponent = () => {
                         Учитесь водить рядом с домом, работой
                         или учёбой
                     </h3>
-                    <div className="advantage-list">
+                    <div className="advantage-list col-10">
                         <AdvantageComponent advantageText={"Онлайн-теория на современных платформах"}/>
                         <AdvantageComponent advantageText={"Вождение в любой точке города"}/>
                         <AdvantageComponent advantageText={"110 автодромов по всей Москве"}/>
