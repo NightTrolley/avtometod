@@ -27,6 +27,23 @@
         right: 0 !important;
         filter: blur(10px) !important;
     }
+
+    .btn-block-wrapper {
+        gap: 15px !important;
+    }
+
+    .btn-block-wrapper .button-wrapper {
+        max-width: calc(50% - 8px) !important;
+        min-width: calc(50% - 8px) !important;
+    }
+
+    .ghost-btn:before {
+        content: none !important;
+    }
+
+    .pay-card-wrapper {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 768px) {

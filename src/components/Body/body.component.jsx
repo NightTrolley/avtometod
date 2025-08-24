@@ -43,7 +43,7 @@ const BodyComponent = () => {
                         <AdvantageComponent advantageText={"Вождение в любой точке города"}/>
                         <AdvantageComponent advantageText={"110 автодромов по всей Москве"}/>
                     </div>
-                    <div className="btn-block-wrapper g-0 row col-12">
+                    <div className="btn-block-wrapper d-none d-md-flex g-0 row col-12">
                         <div className="button-wrapper col-6">
                             <PrimaryButtonComponent text={"Начать обучение"}/>
                         </div>
@@ -51,10 +51,23 @@ const BodyComponent = () => {
                             <GhostBtnComponent text={"Договор онлайн"}/>
                         </div>
                     </div>
-                    <PayCardComponent/>
+                    <div className="pay-card-wrapper d-none d-md-block">
+                        <PayCardComponent/>
+                    </div>
                 </div>
                 <div className="car-img-wrapper col-12 col-md-6">
                     <img src={car} alt="" className="img-fluid"/>
+                </div>
+                <div className="pay-card-wrapper d-block d-md-none">
+                    <PayCardComponent/>
+                </div>
+                <div className="btn-block-wrapper d-flex d-md-none g-0 row col-12">
+                    <div className="button-wrapper col-6">
+                        <PrimaryButtonComponent text={"Начать обучение"}/>
+                    </div>
+                    <div className="button-wrapper g-0 col-6">
+                        <GhostBtnComponent text={"Договор онлайн"}/>
+                    </div>
                 </div>
             </div>
             <section className="achievement-section spacer">
@@ -66,7 +79,7 @@ const BodyComponent = () => {
             <section className="driving-courses_section spacer">
                 <div className="title container text-center">
                     <div className="h3">
-                        Обучение вождению с комфортом и выгодой
+                    Обучение вождению с комфортом и выгодой
                         – ознакомьтесь с нашими ценами!
                     </div>
                     <div className="h6">
