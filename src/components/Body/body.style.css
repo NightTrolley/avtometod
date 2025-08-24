@@ -166,13 +166,13 @@ h3 {
 
 .faq {
     position: relative;
-}
-
-.faq-wrapper {
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
     box-shadow: 0 0 25px 0 rgba(0,0,0,.25);
+}
+
+.faq-wrapper {
     padding: 40px;
     background: transparent;
 }
