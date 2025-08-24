@@ -8,6 +8,10 @@ footer {
 
 .copyright {
     text-align: end;
+    position: absolute;
+    bottom: -35px;
+    right: 0;
+    margin: 0;
 }
 
 .page-links a{
