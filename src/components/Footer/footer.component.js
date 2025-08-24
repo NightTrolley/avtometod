@@ -11,7 +11,7 @@ import "./footer.style.css"
 
 const FooterComponent = () => {
     return (
-        <footer className="row justify-content-between">
+        <footer className="row g-0 justify-content-between">
             <NavbarBrand as={Link} to={"/"} className="col-3">
                 <img src="/icons/logo.svg" alt="" className="logo"/>
             </NavbarBrand>
