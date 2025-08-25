@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddb1d06-c7f7-4d59-816d-b47264a45f75" name="Changes" comment="change page title and clear imports in index.js">
+    <list default="true" id="3ddb1d06-c7f7-4d59-816d-b47264a45f75" name="Changes" comment="fix footer width">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/body.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/body.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.component.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;sidebar-branch&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -150,6 +147,8 @@
       <workItem from="1755802431831" duration="7623000" />
       <workItem from="1755988786426" duration="27000" />
       <workItem from="1755988864840" duration="2456000" />
+      <workItem from="1756144686728" duration="80000" />
+      <workItem from="1756144840818" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -239,7 +238,47 @@
       <option name="project" value="LOCAL" />
       <updated>1755872409065</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="missed expand button icon))">
+      <option name="closed" value="true" />
+      <created>1755992351674</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1755992351674</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix parasite y-scroll on mobile version">
+      <option name="closed" value="true" />
+      <created>1755993416605</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1755993416605</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix advantage block">
+      <option name="closed" value="true" />
+      <created>1755994974029</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1755994974029</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix faq block shadow">
+      <option name="closed" value="true" />
+      <created>1755995994068</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1755995994068</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix footer width">
+      <option name="closed" value="true" />
+      <created>1755996146577</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1755996146577</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +304,12 @@
     <MESSAGE value="fix workflow" />
     <MESSAGE value="change phone number and email" />
     <MESSAGE value="change page title and clear imports in index.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="change page title and clear imports in index.js" />
+    <MESSAGE value="missed expand button icon))" />
+    <MESSAGE value="fix parasite y-scroll on mobile version" />
+    <MESSAGE value="fix advantage block" />
+    <MESSAGE value="fix faq block shadow" />
+    <MESSAGE value="fix footer width" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix footer width" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

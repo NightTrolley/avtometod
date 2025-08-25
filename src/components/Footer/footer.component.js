@@ -40,7 +40,6 @@ const FooterComponent = () => {
                     <SocialComponent link={"/aas"} icon={telegram_icon} alt={"telegram"}/>
                     <SocialComponent link={"/aas"} icon={vk_icon} alt={"vk"}/>
                     <SocialComponent link={"/aas"} icon={wa_icon} alt={"whatsapp"}/>
-                    <SocialComponent link={"/aas"} icon={inst_icon} alt={"instagram"}/>
                 </div>
             </div>
             <div className="contact-block col-md-3">

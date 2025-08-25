@@ -132,7 +132,7 @@ const BodyComponent = () => {
                     <SecondaryButton text={"Посмотреть все отзывы"}/>
                 </div>
             </section>
-            <section className="news spacer">
+            <section className="news d-none spacer">
                 <div className="news-cards-wrapper row g-0">
                     {newsData.slice(0, 3).map(news => (
                         <NewsCardComponent key={news.id} title={news.title} text={news.text} date={news.date} />
@@ -142,7 +142,7 @@ const BodyComponent = () => {
                     <SecondaryButton text={"Посмотреть все статьи"}/>
                 </div>
             </section>
-            <section className="faq spacer">
+            <section className="faq spacer d-none">
                 <img src="/icons/znak-u.png" alt="" className="img-fluid sign top"/>
                 <img src="/icons/znak-u.png" alt="" className="img-fluid sign center"/>
                 <img src="/icons/znak-u.png" alt="" className="img-fluid sign bottom"/>
