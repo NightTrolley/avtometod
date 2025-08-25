@@ -182,7 +182,7 @@ const EducationBPage = () => {
                         <div className="skill col-12 col-md-3 text-center">
                             <img src="/icons/after3.svg" alt="" className="img-fluid"/>
                             <p>
-                                Получите <span>бессрочную </span>
+                                Получите
                                 консультационную <span>поддержку </span>
                                 от инструкторов.
                         </p>

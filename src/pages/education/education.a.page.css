@@ -1,0 +1,61 @@
+.category-desc {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.category-desc span {
+    font-weight: 700;
+}
+
+.about-a-category {
+    background-color: #0984FF26;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding: 30px;
+    position: relative;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.moto-img {
+    position: absolute;
+    right: 20px;
+    top: -22px;
+
+}
+
+.course-content-wrapper {
+    margin-top: 80px;
+    gap: 20px;
+}
+
+.course-content-wrapper .title {
+    font-weight: 600;
+    font-size: 39px;
+    margin-bottom: 30px;
+}
+
+.tile-title {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.tile-content {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.course-content-tile {
+    background-color: #FF6F0026;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding: 30px;
+    max-width: 638px;
+}
+
+.course-img {
+    max-width: 638px;
+    text-align: center;
+}

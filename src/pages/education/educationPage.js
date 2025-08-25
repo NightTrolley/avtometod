@@ -17,7 +17,7 @@ const EducationPage = () => {
                 <div className="education education-a col-12 col-md-6">
                     <div className="image-wrapper">
                         <img src="/icons/education-a.svg" alt="" className="img-fluid"/>
-                        <Link to="/education-b">Узнать больше</Link>
+                        <Link to="/education-a">Узнать больше</Link>
                     </div>
                 </div>
             </section>

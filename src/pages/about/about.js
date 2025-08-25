@@ -195,7 +195,7 @@ export default function About() {
                 </div>
             </div>
             <div className="spacer-90"></div>
-            <section className="faq spacer-90">
+            <section className="faq d-none spacer-90">
                 <img src="/icons/znak-u.png" alt="" className="img-fluid sign top"/>
                 <img src="/icons/znak-u.png" alt="" className="img-fluid sign center"/>
                 <img src="/icons/znak-u.png" alt="" className="img-fluid sign bottom"/>

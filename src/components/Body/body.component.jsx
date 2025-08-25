@@ -118,7 +118,7 @@ const BodyComponent = () => {
             </section>
             <section className="our_fleet-section text-center spacer">
                 <OurFleetComponent/>
-                <div className="button-wrapper mx-auto mt-5 col-12 col-md-4">
+                <div className="button-wrapper d-none mx-auto mt-5 col-12 col-md-4">
                     <SecondaryButton text={"Посмотреть еще автомобили"}/>
                 </div>
             </section>

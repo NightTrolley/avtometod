@@ -6,6 +6,7 @@ import About from "./pages/about/about";
 import EducationPage from "./pages/education/educationPage";
 import EducationBPage from "./pages/education/educationB.page";
 import NotFoundPage from "./pages/NotFound/NotFoundPage";
+import EducationAPage from "./pages/education/educationA.page";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/about" exact element={<About/>} />
                 <Route path="/education" exact element={<EducationPage/>} />
                 <Route path="/education-b" exact element={<EducationBPage/>} />
+                <Route path="/education-a" exact element={<EducationAPage/>} />
                 <Route path="*" exact element={<NotFoundPage/>} />
             </Routes>
         </div>
