@@ -39,22 +39,22 @@ const Header = () => {
                             <div className="links">
                                 <div className="collapse-menu-links d-flex flex-column">
                                     <div>
-                                        <Link to="/">Обучение</Link>
+                                        <Link to="/education">Обучение</Link>
                                     </div>
                                     <div>
-                                        <Link to="/">О нас</Link>
+                                        <Link to="/about">О нас</Link>
                                     </div>
                                     <div>
-                                        <Link to="/">онлайн</Link>
+                                        <Link to="/online">Онлайн</Link>
                                     </div>
                                     <div>
-                                        <Link to="/">Контакты</Link>
+                                        <Link to="/contacts">Контакты</Link>
                                     </div>
                                     <div>
-                                        <Link to="/">Блог</Link>
+                                        <Link to="/blog">Блог</Link>
                                     </div>
                                     <div>
-                                        <Link to="/">Вакансии</Link>
+                                        <Link to="/vacancy">Вакансии</Link>
                                     </div>
                                 </div>
                             </div>
