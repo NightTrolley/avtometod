@@ -107,7 +107,7 @@ const Header = () => {
             </div>
 
             <div className="container-fluid col-12 d-none d-md-block g-0 second-floor mb-5 ">
-                <div className="menu-wrapper h-100 row g-0 justify-content-center align-items-center">
+                <div className="menu-wrapper h-100 row g-0 justify-content-center align-items-center text-center">
                     <NavItem className="col-1">
                         <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"} to="/about">О
                             нас</NavLink>
@@ -118,23 +118,23 @@ const Header = () => {
                     </NavItem>
                     <NavItem className="col-1">
                         <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
-                                 to="/">Онлайн</NavLink>
+                                 to="/online">Онлайн</NavLink>
                     </NavItem>
                     <NavItem className="col-1">
                         <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
-                                 to="/">Блог</NavLink>
+                                 to="/blog">Блог</NavLink>
                     </NavItem>
                     <NavItem className="col-1">
                         <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
-                                 to="/">Вакансии</NavLink>
+                                 to="/vacancy">Вакансии</NavLink>
                     </NavItem>
                     <NavItem className="col-1">
                         <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
-                                 to="/">Оплата</NavLink>
+                                 to="/pay">Оплата</NavLink>
                     </NavItem>
                     <NavItem className="col-1">
                         <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
-                                 to="/">Контакты</NavLink>
+                                 to="/contacts">Контакты</NavLink>
                     </NavItem>
                 </div>
             </div>
