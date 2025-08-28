@@ -71,10 +71,10 @@ const Header = () => {
                             <div className="contacts text-center mx-auto">
                                 <p>Связаться с нами</p>
                                 <p className="email">
-                                    info@automethod.ru
+                                    info@avtometod.ru
                                 </p>
                                 <p className="address">
-                                    проспект Андропова, д.8
+                                    Киевская улица, 14
                                 </p>
                                 <p className="phone-number">
                                     +7 (999) 999-99-99

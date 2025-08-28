@@ -47,9 +47,9 @@ const FooterComponent = () => {
                     <NavitemComponent class={"phone_block"} firstText={"Номер телефона"}
                                       secondText={"+7 (999) 999-99-99"}/>
                     <NavitemComponent class={"email_block"} firstText={"E-mail"}
-                                      secondText={"info@automethod.ru"}/>
+                                      secondText={"info@avtometod.ru"}/>
                     <NavitemComponent class={"location_block"} firstText={"Адрес"}
-                                      secondText={"проспект Андропова, д.8"}/>
+                                      secondText={"Киевская улица, 14"}/>
                 </div>
             </div>
             <p className="copyright">
