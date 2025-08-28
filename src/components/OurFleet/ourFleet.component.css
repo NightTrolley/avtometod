@@ -9,3 +9,18 @@
 .our_fleet-section .button-wrapper button {
     max-width: 385px;
 }
+
+.car-card .car_name {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.car-card .gear_box {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.car-card .year {
+    font-weight: 600;
+    font-size: 21px;
+}
