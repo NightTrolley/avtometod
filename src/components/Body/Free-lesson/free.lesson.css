@@ -45,7 +45,8 @@
 
 .free-lesson-promo-form {
     position: absolute;
-    right: 0;
+    right: 40px;
+    top: 45%;
 }
 
 .free-lesson-promo-form form {
@@ -63,4 +64,8 @@
 .free-lesson-promo-form form input::placeholder {
     color: #000;
     opacity: .45;
+}
+
+.free-lesson-promo input {
+    padding: 15px 20px;
 }
