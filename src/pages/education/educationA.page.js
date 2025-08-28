@@ -21,7 +21,7 @@ const EducationAPage = () => {
                             на дороге и сдать экзамен в ГИБДД с первого раза.
                         </div>
                         <div className="moto-img col-12 col-md-5">
-                            <img src="/icons/moto.svg" alt="" className="moto-img"/>
+                            <img src="/icons/moto.svg" alt="" className="moto-img img-fluid"/>
                         </div>
                     </div>
                 </div>
