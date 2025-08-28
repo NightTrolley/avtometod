@@ -12,7 +12,9 @@ const OurFleetComponent = () => {
                 <p className="car_name">{item.car_name}</p>
                 <p className="gear_box">Коробка: {item.gearbox}</p>
                 <p className="year">{item.year}</p>
-                <PrimaryButtonComponent text={"Записаться на урок"}/>
+                <div className="button-wrapper mx-auto col-10">
+                    <PrimaryButtonComponent text={"Записаться на урок"}/>
+                </div>
             </div>
         ))}
     </div>);
