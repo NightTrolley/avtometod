@@ -8,6 +8,11 @@
     .a-page-price-card-wrapper {
         gap: 35px;
     }
+
+    .how-subscribe-wrapper {
+        --bs-gutter-y: 0;
+        --bs-gutter-x: 0;
+    }
 }
 
 .category-desc {
