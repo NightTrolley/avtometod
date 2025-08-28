@@ -4,6 +4,10 @@
         align-items: start !important;
         flex-wrap: nowrap;
     }
+
+    .a-page-price-card-wrapper {
+        gap: 35px;
+    }
 }
 
 .category-desc {
@@ -253,6 +257,7 @@
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
 .how-subscribe-mobile img:nth-of-type(4) {
     right: -60px;
     scale: 1;

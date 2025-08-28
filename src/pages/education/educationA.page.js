@@ -24,7 +24,7 @@ const EducationAPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="course-content-wrapper row col-12">
+            <div className="course-content-wrapper g-0 row col-12">
                 <h2 className="title text-center">
                     Что входит в обучение?
                 </h2>
@@ -43,7 +43,7 @@ const EducationAPage = () => {
                     </p>
                 </div>
                 <div className="course-img col-12 col-md-6">
-                    <img src="/icons/comp.svg" alt=""/>
+                    <img className="img-fluid" src="/icons/comp.svg" alt=""/>
                 </div>
                 <div className="course-content-tile col-12 col-md-6">
                     <p className="tile-title">
@@ -75,7 +75,7 @@ const EducationAPage = () => {
                 </div>
             </div>
             <div className="spacer-80"></div>
-            <div className="prices row justify-content-evenly">
+            <div className="prices">
                 <p className="title text-center col-12 col-md-10">
                     Обучение вождению с комфортом и выгодой
                     – ознакомьтесь с нашими ценами!
@@ -83,9 +83,11 @@ const EducationAPage = () => {
                 <p className="desc text-center">
                     Вы можете выбрать курс в зависимости от ваших потребностей и уровня подготовки.
                 </p>
-                {drivingCoursesA.map(course => (
-                    <DrivingCourseCard key={course.id} course={course}/>
-                ))}
+                <div className="a-page-price-card-wrapper d-flex row justify-content-evenly">
+                    {drivingCoursesA.map(course => (
+                        <DrivingCourseCard key={course.id} course={course}/>
+                    ))}
+                </div>
             </div>
             <div className="spacer-80"></div>
             <div className="requirements text-center justify-content-between row">
