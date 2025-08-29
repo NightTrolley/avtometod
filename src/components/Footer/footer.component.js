@@ -45,11 +45,11 @@ const FooterComponent = () => {
             <div className="contact-block col-md-3">
                 <div className="footer-contact-wrapper d-flex flex-column g-0">
                     <NavitemComponent class={"phone_block"} firstText={"Номер телефона"}
-                                      secondText={"+7 (495) 019-95-88"}/>
+                                      secondText={<a href="tel:+7 (495) 019-95-88">+7 (495) 019-95-88</a>}/>
                     <NavitemComponent class={"email_block"} firstText={"E-mail"}
-                                      secondText={"info@avtometod.ru"}/>
+                                      secondText={<a href="mailto:info@avtometod.ru">info@avtometod.ru</a>}/>
                     <NavitemComponent class={"location_block"} firstText={"Адрес"}
-                                      secondText={"Киевская улица, 14"}/>
+                                      secondText={"г. Москва, Киевская улица, 14"}/>
                 </div>
             </div>
             <p className="copyright">

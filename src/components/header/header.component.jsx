@@ -85,13 +85,13 @@ const Header = () => {
                             <div className="contacts text-center mx-auto">
                                 <p>Связаться с нами</p>
                                 <p className="email">
-                                    info@avtometod.ru
+                                    <a href="mailto:info@avtometod.ru">info@avtometod.ru</a>
                                 </p>
                                 <p className="address">
                                     Киевская улица, 14
                                 </p>
                                 <p className="phone-number">
-                                    +7 (495) 019-95-88
+                                    <a href="tel:+7 (495) 019-95-88">+7 (495) 019-95-88</a>
                                 </p>
                             </div>
                         </div>

@@ -26,3 +26,7 @@ footer {
 .footer-contact-wrapper {
     gap: 15px;
 }
+
+a {
+    color: #000 !important;
+}
