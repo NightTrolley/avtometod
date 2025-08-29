@@ -55,6 +55,7 @@
 
 .promo-block {
     background-color: #0984FF26;
+    overflow: hidden;
 }
 
 .online-start {
