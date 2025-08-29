@@ -4,7 +4,6 @@ import location_icon from "../../icons/location_icon.svg"
 import telegram_icon from "../../icons/telegram_icon.svg"
 import vk_icon from "../../icons/vk_icon.svg"
 import wa_icon from "../../icons/wa_icon.svg"
-import inst_icon from "../../icons/inst_icon.svg"
 import './header.component.css';
 import Navbar from 'react-bootstrap/Navbar';
 import NavitemComponent from "./NavItems/navitem.component";
@@ -12,9 +11,24 @@ import SocialComponent from "../Social/socialComponent";
 import {NavbarBrand, NavbarCollapse, NavItem,} from "react-bootstrap";
 import PrimaryButtonComponent from "../Buttons/primaryButton/primary.button.component";
 import {Link, NavLink} from "react-router";
-import React from "react";
+import React, {useEffect} from "react";
+import {useLocation, useNavigate} from "react-router-dom";
 
 const Header = () => {
+
+    const location = useLocation();
+
+    const closeMenu = () => {
+        const navbarCollapse = document.getElementById("collapse-menu");
+        if (navbarCollapse && navbarCollapse.classList.contains("show")) {
+            navbarCollapse.classList.remove("show")
+        }
+    };
+
+    useEffect(() => {
+        closeMenu();
+    }, [location]);
+
     return (
         <div className="container-fluid g-0">
             <div className="container g-0">
