@@ -2,6 +2,19 @@
     .free-lesson-promo {
         padding: 20px !important;
     }
+
+    .free-lesson-promo-form {
+        position: relative !important;
+        margin-top: 20px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .free-lesson-promo-form {
+        position: absolute;
+        right: 40px;
+        top: 45%;
+    }
 }
 
 .advantages-list-item-img {
@@ -41,12 +54,6 @@
     position: absolute;
     top: 0;
     right: 30px;
-}
-
-.free-lesson-promo-form {
-    position: absolute;
-    right: 40px;
-    top: 45%;
 }
 
 .free-lesson-promo-form form {
