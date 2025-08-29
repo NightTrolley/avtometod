@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddb1d06-c7f7-4d59-816d-b47264a45f75" name="Changes" comment="add collapse menu links">
+    <list default="true" id="3ddb1d06-c7f7-4d59-816d-b47264a45f75" name="Changes" comment="add mobile menu collapse effect of page change">
+      <change afterPath="$PROJECT_DIR$/src/pages/online/online.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/online/online.page.styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/drivingCoursesData.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/drivingCoursesData.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/education/education.a.page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/education/education.a.page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/education/educationA.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/education/educationA.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HowToStart/howtostart.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HowToStart/howtostart.style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +151,9 @@
       <workItem from="1755988786426" duration="27000" />
       <workItem from="1755988864840" duration="2456000" />
       <workItem from="1756144686728" duration="80000" />
-      <workItem from="1756144840818" duration="18475000" />
+      <workItem from="1756144840818" duration="18940000" />
+      <workItem from="1756373479454" duration="2452000" />
+      <workItem from="1756380436745" duration="14894000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -303,7 +307,159 @@
       <option name="project" value="LOCAL" />
       <updated>1756213477497</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="changes a category page">
+      <option name="closed" value="true" />
+      <created>1756244968300</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1756244968300</updated>
+    </task>
+    <task id="LOCAL-00021" summary="some fixes on A-page">
+      <option name="closed" value="true" />
+      <created>1756419026056</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1756419026056</updated>
+    </task>
+    <task id="LOCAL-00022" summary="some fixes on A-page">
+      <option name="closed" value="true" />
+      <created>1756420291406</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1756420291406</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix how-subscribe-wrapper on A-page">
+      <option name="closed" value="true" />
+      <created>1756420639526</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1756420639526</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix how-subscribe-wrapper on A-page">
+      <option name="closed" value="true" />
+      <created>1756421316927</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1756421316927</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fix email and address">
+      <option name="closed" value="true" />
+      <created>1756421615329</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1756421615329</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix course content texts">
+      <option name="closed" value="true" />
+      <created>1756422150654</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1756422150654</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix moto image">
+      <option name="closed" value="true" />
+      <created>1756422540429</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1756422540429</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix header links">
+      <option name="closed" value="true" />
+      <created>1756422821005</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1756422821005</updated>
+    </task>
+    <task id="LOCAL-00029" summary="remove instagram icon">
+      <option name="closed" value="true" />
+      <created>1756422861750</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1756422861750</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix free lesson form">
+      <option name="closed" value="true" />
+      <created>1756423247002</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1756423247002</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fix fleet card texts">
+      <option name="closed" value="true" />
+      <created>1756423484874</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1756423484874</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fix car card button">
+      <option name="closed" value="true" />
+      <created>1756423944443</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1756423944443</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add our fleet form">
+      <option name="closed" value="true" />
+      <created>1756425882729</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1756425882729</updated>
+    </task>
+    <task id="LOCAL-00034" summary="some fixes">
+      <option name="closed" value="true" />
+      <created>1756426761232</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1756426761232</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fix free lesson form">
+      <option name="closed" value="true" />
+      <created>1756427149523</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1756427149523</updated>
+    </task>
+    <task id="LOCAL-00036" summary="fix pay card">
+      <option name="closed" value="true" />
+      <created>1756427406060</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1756427406060</updated>
+    </task>
+    <task id="LOCAL-00037" summary="fix free lesson form">
+      <option name="closed" value="true" />
+      <created>1756427481517</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1756427481517</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add mobile menu collapse effect of page change">
+      <option name="closed" value="true" />
+      <created>1756477933232</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1756477933232</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,13 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
-    <MESSAGE value="add deploy workflow" />
-    <MESSAGE value="second init" />
-    <MESSAGE value="disable eslint on deploy" />
-    <MESSAGE value="test workflow" />
-    <MESSAGE value="fix workflow" />
-    <MESSAGE value="change phone number and email" />
     <MESSAGE value="change page title and clear imports in index.js" />
     <MESSAGE value="missed expand button icon))" />
     <MESSAGE value="fix parasite y-scroll on mobile version" />
@@ -337,7 +486,23 @@
     <MESSAGE value="правки" />
     <MESSAGE value="add &quot;A&quot; category page" />
     <MESSAGE value="add collapse menu links" />
-    <option name="LAST_COMMIT_MESSAGE" value="add collapse menu links" />
+    <MESSAGE value="changes a category page" />
+    <MESSAGE value="some fixes on A-page" />
+    <MESSAGE value="fix how-subscribe-wrapper on A-page" />
+    <MESSAGE value="fix email and address" />
+    <MESSAGE value="fix course content texts" />
+    <MESSAGE value="fix moto image" />
+    <MESSAGE value="fix header links" />
+    <MESSAGE value="remove instagram icon" />
+    <MESSAGE value="fix fleet card fonts" />
+    <MESSAGE value="fix fleet card fonts" />
+    <MESSAGE value="fix car card button" />
+    <MESSAGE value="add our fleet form" />
+    <MESSAGE value="some fixes" />
+    <MESSAGE value="fix pay card" />
+    <MESSAGE value="fix free lesson form" />
+    <MESSAGE value="add mobile menu collapse effect of page change" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mobile menu collapse effect of page change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

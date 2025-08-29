@@ -1,0 +1,238 @@
+@media (max-width: 768px) {
+    .online-advantages .title {
+        font-size: 23px !important;
+    }
+
+    .online-advantage-item img {
+        max-width: 180px;
+        max-height: 180px;
+    }
+
+    .online-advantage-item__text {
+        font-size: 18px !important;
+    }
+
+    .online-page-slogan {
+        font-size: 23px !important;
+    }
+
+    .address p:nth-of-type(1) {
+        font-size: 23px !important;
+    }
+
+    .address p:nth-of-type(2) {
+        font-size: 18px !important;
+    }
+
+    .online-page h1 {
+        font-size: 25px !important;
+    }
+
+    .online-page h2 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    .address {
+        gap: 135px;
+    }
+}
+
+.online-advantages .title {
+    font-weight: 600;
+    font-size: 39px;
+}
+
+.online-advantage-item__text {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.online-advantage-item__text span {
+    font-weight: 700;
+}
+
+.promo-block {
+    background-color: #0984FF26;
+}
+
+.online-start {
+    padding: 40px 0;
+    position: relative;
+}
+
+.online-start-mobile {
+    padding: 20px;
+    position: relative;
+}
+
+.online-start p {
+    font-weight: 500;
+    font-size: 33px;
+}
+
+.online-start-mobile p {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.online-start p span {
+    font-weight: 600;
+}
+
+.online-start-mobile p span {
+    font-weight: 600;
+}
+
+.online-start p span:nth-of-type(2) {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.online-start-mobile p span:nth-of-type(2) {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.online-start img {
+    position: absolute;
+}
+
+.online-start-mobile img {
+    position: absolute;
+}
+
+.online-start img:nth-of-type(1) {
+    left: 0;
+    top: 0;
+}
+
+.online-start-mobile img:nth-of-type(1) {
+    left: -45px;
+    top: 0;
+}
+
+.online-start img:nth-of-type(2) {
+    left: 115px;
+    top: 30%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.online-start-mobile img:nth-of-type(2) {
+    left: -15px;
+    top: 35%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.online-start img:nth-of-type(3) {
+    left: -35px;
+    bottom: 82px;
+    scale: .7;
+}
+
+.online-start-mobile img:nth-of-type(3) {
+    right: -35px;
+    bottom: 50px;
+    scale: .7;
+}
+
+.online-start img:nth-of-type(4) {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    scale: .7;
+}
+
+.online-start-mobile img:nth-of-type(4) {
+    right: -20px;
+    top: 40px;
+    scale: .9;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.online-start img:nth-of-type(5) {
+    right: 82px;
+    top: 30%;
+    scale: .7;
+
+}
+
+.online-start img:nth-of-type(6) {
+    right: -35px;
+    bottom: 82px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.how-is-teaching-wrapper {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding: 40px;
+    background-color: #FF6F0026;
+}
+
+.how-is-teaching-text {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 2;
+}
+
+.how-is-teaching-text span {
+    font-weight: 700;
+}
+
+.address p:nth-of-type(1) {
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.address p:nth-of-type(2) {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.online-page-slogan {
+    background-color: #0984FF26;
+    padding: 40px;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.online-page h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.online-page h2 {
+    font-weight: 500;
+    font-size: 23px;
+}
+
+h2 span {
+    font-weight: 700;
+}
+
+.online-page .steps {
+    line-height: 1.7;
+}

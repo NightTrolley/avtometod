@@ -9,6 +9,7 @@
 .how-to-start-container .title {
     font-weight: 700;
     font-size: 30px;
+    text-transform: uppercase;
 }
 
 .start-steps {
