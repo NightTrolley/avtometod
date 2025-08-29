@@ -9,7 +9,7 @@ const EducationAPage = () => {
         <div className="education-a-page">
             <div className="container-fluid container-md">
                 <h1 className="page-title">Категория А – обучение на мотоцикл</h1>
-                <div className="about-a-category-wrapper col-12">
+                <div className="about-a-category-wrapper container justify-content-center d-flex col-12">
                     <div className="about-a-category row">
                         <div className="category-desc col-12 col-md-7">
                             <span>Получение</span> водительских прав категории А открывает
@@ -82,8 +82,8 @@ const EducationAPage = () => {
                     </div>
                 </div>
                 <div className="spacer-80"></div>
-                <div className="prices">
-                    <p className="title text-center col-12 col-md-10">
+                <div className="prices container">
+                    <p className="title text-center mx-auto col-12 col-md-10">
                         Обучение вождению с комфортом и выгодой
                         – ознакомьтесь с нашими ценами!
                     </p>
