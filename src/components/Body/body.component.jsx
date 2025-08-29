@@ -117,6 +117,33 @@ const BodyComponent = () => {
                 </div>
             </section>
             <section className="our_fleet-section text-center spacer">
+                <div className="our-fleet-form-wrapper spacer-80">
+                    <div className="container">
+                        <p className="title">
+                            Наш автопарк
+                        </p>
+                        <p className="desc">Начните учиться вождению на любом понравившемся автомобиле.</p>
+                        <div className="form row">
+                            <div className="slogan col-md-7 col-12">
+                                <p className="col-md-9 col-10">
+                                    Учитесь на механике
+                                    или автомате
+                                    — стоимость одинаковая
+                                </p>
+                                <p className="slogan-desc col-9 col-md-12">
+                                    Все автомобили соответствуют требованиям ГИБДД.
+                                </p>
+                            </div>
+                            <div className="inputs col-md-5 col-12">
+                                <form action="/" className="d-flex flex-column">
+                                    <input type="text" className="name" placeholder="Имя"/>
+                                    <input type="tel" className="number" placeholder="+7 (999) 999-99-99"/>
+                                    <SecondaryButton text="Бесплатная консультация"/>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <OurFleetComponent/>
                 <div className="button-wrapper d-none mx-auto mt-5 col-12 col-md-4">
                     <SecondaryButton text={"Посмотреть еще автомобили"}/>
@@ -125,7 +152,8 @@ const BodyComponent = () => {
             <section className="reviews d-none spacer">
                 <div className="reviews-wrapper row g-0">
                     {reviewData.slice(0, 3).map(review => (
-                        <ReviewCardComponent key={review.id} reviewer={review.reviewer} date={review.date} video={review.video}/>
+                        <ReviewCardComponent key={review.id} reviewer={review.reviewer} date={review.date}
+                                             video={review.video}/>
                     ))}
                 </div>
                 <div className="button-wrapper mx-auto mt-5 col-12 col-md-4">
@@ -135,7 +163,7 @@ const BodyComponent = () => {
             <section className="news d-none spacer">
                 <div className="news-cards-wrapper row g-0">
                     {newsData.slice(0, 3).map(news => (
-                        <NewsCardComponent key={news.id} title={news.title} text={news.text} date={news.date} />
+                        <NewsCardComponent key={news.id} title={news.title} text={news.text} date={news.date}/>
                     ))}
                 </div>
                 <div className="button-wrapper mx-auto mt-5 col-12 col-md-4">
