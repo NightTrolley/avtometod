@@ -91,7 +91,7 @@ const Header = () => {
                                     Киевская улица, 14
                                 </p>
                                 <p className="phone-number">
-                                    +7 (999) 999-99-99
+                                    +7 (495) 019-95-88
                                 </p>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ const Header = () => {
                     <NavbarCollapse>
                         <div className="contact-wrapper col row g-0">
                             <NavitemComponent class={"phone_block col-4"} firstText={"Номер телефона"}
-                                              secondText={"+7 (999) 999-99-99"} icon={phone_icon}/>
+                                              secondText={"+7 (495) 019-95-88"} icon={phone_icon}/>
                             <NavitemComponent class={"email_block col-4"} firstText={"E-mail"}
                                               secondText={"info@avtometod.ru"}
                                               icon={email_icon}/>

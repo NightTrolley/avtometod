@@ -45,7 +45,7 @@ const FooterComponent = () => {
             <div className="contact-block col-md-3">
                 <div className="footer-contact-wrapper d-flex flex-column g-0">
                     <NavitemComponent class={"phone_block"} firstText={"Номер телефона"}
-                                      secondText={"+7 (999) 999-99-99"}/>
+                                      secondText={"+7 (495) 019-95-88"}/>
                     <NavitemComponent class={"email_block"} firstText={"E-mail"}
                                       secondText={"info@avtometod.ru"}/>
                     <NavitemComponent class={"location_block"} firstText={"Адрес"}
