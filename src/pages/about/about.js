@@ -35,7 +35,7 @@ export default function About() {
             </div>
             <div className="spacer-90"></div>
             <section>
-                <div className="our-advantages">
+                <div className="our-advantages container">
                     <p className="section-title">Наши преимущества</p>
                     <div className="spacer-40"></div>
                     <div className="advantage-list d-flex flex-column col-md-12 col-12">
@@ -87,14 +87,14 @@ export default function About() {
                     Почему выбирают "АвтоМетод"?
                 </div>
                 <div className="spacer-40"></div>
-                <div className="cards-list row">
+                <div className="cards-list justify-content-between g-0 row">
                     {whyChooseCards.map(item => (
                         <Card key={item.id} title={item.title} text={item.text}/>
                     ))}
                 </div>
             </div>
             <div className="spacer-90"></div>
-            <div className="how-start-wrapper row justify-content-between">
+            <div className="how-start-wrapper row g-0 justify-content-between">
                 <div className="section-title">
                     Как начать обучение?
                 </div>
@@ -104,22 +104,25 @@ export default function About() {
                         <img className="img-fluid" src="/icons/comp.svg" alt=""/>
                     </div>
                     <div className="steps-wrapper col-12 col-md-8 d-flex flex-column">
-                        <div className="steps-title text-end">
+                        <div className="steps-title text-start text-md-end">
                             4 простых шага к получению водительских прав:
                         </div>
-                        <div className="steps d-flex flex-column text-end">
+                        <div className="steps d-flex flex-column text-start text-md-end">
                             <p>1. Определитесь с графиком – утренние, дневные или вечерние группы</p>
                             <p>2. Заключите договор – онлайн или в нашем офисе</p>
                             <p>3. Оплатите обучение – первый взнос от (указать сумму в рублях) рублей</p>
                             <p>4. Приступайте к занятиям – теория и практика</p>
                         </div>
                     </div>
+                    <div className="img-wrapper d-block d-md-none">
+                        <img className="img-fluid" src="/icons/comp.svg" alt=""/>
+                    </div>
                 </div>
 
             </div>
             <div className="spacer-90"></div>
             <div className="bonus-features">
-                <div className="features-wrapper mx-auto justify-content-between text-center col-7 col-md-12 row">
+                <div className="features-wrapper mx-auto justify-content-between text-center col-12 col-md-12 row">
                     <div className="section-title">
                         Дополнительные возможности
                     </div>
@@ -181,7 +184,7 @@ export default function About() {
                     Контакты
                 </div>
                 <div className="spacer-40"></div>
-                <div className="contacts-wrapper row">
+                <div className="contacts-wrapper g-0 row">
                     <div className="contact-item col-md">
                         <p>📍 <span>Адреса филиалов:</span> по всей Москве</p>
                     </div>

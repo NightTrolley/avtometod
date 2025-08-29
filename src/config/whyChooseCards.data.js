@@ -9,17 +9,17 @@ export const whyChooseCards = [
     },
     {
         id: 2,
-        title: 'Why Choose Cards',
-        text: "Why Choose Cards I've done?",
+        title: 'Современные методики –',
+        text: "интерактивные классы и онлайн-обучение",
     },
     {
         id: 3,
-        title: 'Why Choose Cards',
-        text: "Why Choose Cards I've done?",
+        title: 'Качественная подготовка – 98%',
+        text: "наших учеников сдают экзамены в ГИБДД с первого раза",
     },
     {
         id: 4,
-        title: 'Why Choose Cards',
-        text: "Why Choose Cards I've done?",
+        title: 'Доступные цены',
+        text: "– различные пакеты обучения и рассрочка платежа",
     },
 ]

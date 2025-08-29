@@ -1,33 +1,33 @@
 export const educationTheory = [
     {
         number: 1,
-        text: "sdsdd"
+        text: "Правила дорожного движения"
     },
     {
         number: 2,
-        text: "sdsdd"
+        text: "Основы безопасности вождения"
     },
     {
         number: 3,
-        text: "sdsdd"
+        text: "Разбор сложных дорожных ситуаций"
     },
     {
         number: 4,
-        text: "sdsdd"
+        text: "Устройство и обслуживание автомобиля"
     },
 ]
 
 export const educationPractice = [
     {
         number: 1,
-        text: "sdsdd"
+        text: "Отработка навыков на автодроме"
     },
     {
         number: 2,
-        text: "sdsdd"
+        text: "Вождение в городских условиях"
     },
     {
         number: 3,
-        text: "sdsdd"
+        text: "Разбор ошибок и сложных моментов"
     },
 ]

@@ -8,6 +8,29 @@
     .why-us .title {
         font-size: 23px !important;
     }
+
+    .education-process-item-text {
+        font-size: 18px !important;
+    }
+
+    .cards-list {
+        gap: 30px;
+        justify-content: center !important;
+    }
+
+    .section-title {
+        font-size: 30px !important;
+    }
+
+    .how-start-wrapper {
+        justify-content: center !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .why-choose-card {
+        max-width: 272px;
+    }
 }
 
 .advantage-number {
@@ -61,6 +84,11 @@
     margin-bottom: 30px;
 }
 
+.education-process-item-text {
+    font-weight: 500;
+    font-size: 25px;
+}
+
 .education-process-item:last-child:after {
     display: none;
 }
@@ -79,10 +107,6 @@
 
 .education-process-item-number p {
     margin: 0;
-}
-
-.education-process-item-text {
-    width: max-content;
 }
 
 .education-process-item-number {
@@ -105,16 +129,15 @@
 
 .item-wrapper {
     align-items: center;
+    gap: 20px;
 }
 
 .why-choose-card {
     background-color: #0984FF26;
     padding: 30px;
-    max-width: 272px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
-    max-height: 200px;
 }
 
 .card-title {
@@ -127,16 +150,16 @@
     font-weight: 500;
 }
 
-.cards-list {
-    gap: 74px;
-}
-
 .how-start {
     background-color: #FF6F0026;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
     padding: 40px;
+}
+
+.how-start .img-wrapper:nth-last-child(1) {
+    margin-top: 30px;
 }
 
 .highlighting {
