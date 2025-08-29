@@ -26,7 +26,7 @@ const FreeLessonComponent = () => {
             <div className="stars d-block d-md-none">
                 <img src={mdStars} alt=""/>
             </div>
-            <div className="free-lesson-promo-form mx-auto col-10 col-md-4">
+            <div className="free-lesson-promo-form mx-auto col-12 col-md-4">
                 <form action="/" className="d-flex flex-column">
                     <input type="text" className="name" placeholder="Имя"/>
                     <input type="tel" className="number" placeholder="+7 (999) 999-99-99"/>
