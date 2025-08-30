@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+    .call-modal .modal-body{
+        padding: 25px !important;
+    }
+
+    .call-modal .text {
+        font-weight: 500;
+        font-size: 18px !important;
+        line-height: 1.7 !important;
+        margin-bottom: 15px;
+    }
+
+    .call-modal .modal-header{
+        padding: 10px 25px 0 25px !important;
+    }
+}
+
+.call-modal .modal-body {
+    background-color: #FF6F0026;
+}
+
+.call-modal .modal-header {
+    background-color: #FF6F0026;
+}
+
+.call-modal .text {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 2;
+}
+
+.call-modal .modal-header {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.call-modal .modal-body{
+    padding: 40px;
+}
+
+.call-modal .modal-header{
+    padding: 20px 40px;
+}

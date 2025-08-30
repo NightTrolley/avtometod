@@ -11,8 +11,9 @@ import SocialComponent from "../Social/socialComponent";
 import {NavbarBrand, NavbarCollapse, NavItem,} from "react-bootstrap";
 import PrimaryButtonComponent from "../Buttons/primaryButton/primary.button.component";
 import {Link, NavLink} from "react-router";
-import React, {useEffect} from "react";
-import {useLocation, useNavigate} from "react-router-dom";
+import React, {useEffect, useState} from "react";
+import {useLocation} from "react-router-dom";
+import FormModalComponent from "../Modals/form.modal.component";
 
 const Header = () => {
 
@@ -28,6 +29,16 @@ const Header = () => {
     useEffect(() => {
         closeMenu();
     }, [location]);
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const handleOpenModal = () => {
+        setIsModalOpen(true);
+    };
+
+    const handleCloseModal = () => {
+        setIsModalOpen(false);
+    };
 
     return (
         <div className="container-fluid g-0">
@@ -113,8 +124,12 @@ const Header = () => {
                         </div>
                         <div className="divider"></div>
                         <div className="button-wrapper col-2">
-                            <PrimaryButtonComponent text={"Заказать звонок"}/>
+                            <PrimaryButtonComponent text={"Заказать звонок"} onClick={handleOpenModal}/>
                         </div>
+                        <FormModalComponent
+                            show={isModalOpen}
+                            onHide={handleCloseModal}
+                        />
                     </NavbarCollapse>
                 </Navbar>
             </div>

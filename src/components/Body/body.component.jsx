@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import TagComponent from "../Tag/tag.component";
 import "./body.style.css"
 import "../Buttons/button.main.style.css"
@@ -24,8 +24,20 @@ import FaqItem from "../Faq/faq.item";
 import {faqData} from "../../config/faq.data";
 import {Accordion} from "react-bootstrap";
 import FooterComponent from "../Footer/footer.component";
+import FormModalComponent from "../Modals/form.modal.component";
 
 const BodyComponent = () => {
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const handleOpenModal = () => {
+        setIsModalOpen(true);
+    };
+
+    const handleCloseModal = () => {
+        setIsModalOpen(false);
+    };
+
     return (
         <div className="container-md g-md-0 container-fluid">
             <TagComponent tagText={'#Автошкола "АвтоМетод"'}></TagComponent>
@@ -45,7 +57,7 @@ const BodyComponent = () => {
                     </div>
                     <div className="btn-block-wrapper d-none d-md-flex g-0 row col-12">
                         <div className="button-wrapper col-6">
-                            <PrimaryButtonComponent text={"Начать обучение"}/>
+                            <PrimaryButtonComponent text={"Начать обучение"} onClick={handleOpenModal}/>
                         </div>
                         <div className="button-wrapper g-0 col-6">
                             <GhostBtnComponent text={"Договор онлайн"}/>
@@ -63,7 +75,7 @@ const BodyComponent = () => {
                 </div>
                 <div className="btn-block-wrapper d-flex d-md-none g-0 row col-12">
                     <div className="button-wrapper col-6">
-                        <PrimaryButtonComponent text={"Начать обучение"}/>
+                        <PrimaryButtonComponent text={"Начать обучение"} onClick={handleOpenModal}/>
                     </div>
                     <div className="button-wrapper g-0 col-6">
                         <GhostBtnComponent text={"Договор онлайн"}/>
@@ -186,6 +198,10 @@ const BodyComponent = () => {
                 </div>
             </section>
             <FooterComponent/>
+            <FormModalComponent
+                show={isModalOpen}
+                onHide={handleCloseModal}
+            />
         </div>
     );
 };
