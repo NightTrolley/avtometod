@@ -25,6 +25,7 @@ import {faqData} from "../../config/faq.data";
 import {Accordion} from "react-bootstrap";
 import FooterComponent from "../Footer/footer.component";
 import FormModalComponent from "../Modals/form.modal.component";
+import {useForm} from "../../hooks/useForm";
 
 const BodyComponent = () => {
 

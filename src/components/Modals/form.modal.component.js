@@ -1,7 +1,8 @@
-import React, {useState} from 'react';
-import {Modal, ModalBody, ModalHeader, ModalTitle} from "react-bootstrap";
+import React from 'react';
+import {Modal, ModalBody, ModalHeader} from "react-bootstrap";
 import SecondaryButton from "../Buttons/secondaryButton/secondaryButton";
 import "./call-modal.styles.css"
+import MainFormComponent from "../Forms/mainForm.component";
 
 const FormModalComponent = ({show, onHide}) => {
     return (
@@ -17,11 +18,7 @@ const FormModalComponent = ({show, onHide}) => {
                             2. Наш менеджер свяжется с Вами в ближайшее время.
                         </div>
                         <div className="form-wrapper col-12 col-md-5">
-                            <form action="" className="d-flex flex-column how-to-start-form">
-                                <input type="text" name="name" placeholder="Имя" required={true}/>
-                                <input type="tel" name="phone" placeholder="+7 (999) 999-99-99" required={true}/>
-                                <SecondaryButton text={"Бесплатная консультация"}/>
-                            </form>
+                            <MainFormComponent/>
                         </div>
                     </div>
                 </ModalBody>
