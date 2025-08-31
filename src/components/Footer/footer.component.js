@@ -34,6 +34,9 @@ const FooterComponent = () => {
                 <div>
                     <Link to="/">Вакансии</Link>
                 </div>
+                <div>
+                    <Link to="/policy">Политика в отношении обработки персональных данных</Link>
+                </div>
             </div>
             <div className="soc-links col-md-2">
                 <div className="social-block">
