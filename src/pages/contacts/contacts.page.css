@@ -1,3 +1,12 @@
+@media (max-width: 768px) {
+    .contacts-block {
+        position: relative !important;
+        left: 0 !important;
+        top: 0 !important;
+        margin-bottom: 20px;
+    }
+}
+
 .map {
     position: relative;
 }
