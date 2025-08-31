@@ -32,9 +32,6 @@ const FooterComponent = () => {
                     <Link to="/">Блог</Link>
                 </div>
                 <div>
-                    <Link to="/">Вакансии</Link>
-                </div>
-                <div>
                     <Link to="/policy">Политика в отношении обработки персональных данных</Link>
                 </div>
             </div>

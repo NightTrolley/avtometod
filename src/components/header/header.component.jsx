@@ -78,9 +78,6 @@ const Header = () => {
                                     <div>
                                         <Link to="/blog">Блог</Link>
                                     </div>
-                                    <div>
-                                        <Link to="/vacancy">Вакансии</Link>
-                                    </div>
                                 </div>
                             </div>
                             <span className="collapse-menu-divider"></span>
@@ -151,10 +148,6 @@ const Header = () => {
                     <NavItem className="col-1">
                         <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
                                  to="/blog">Блог</NavLink>
-                    </NavItem>
-                    <NavItem className="col-1">
-                        <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
-                                 to="/vacancy">Вакансии</NavLink>
                     </NavItem>
                     <NavItem className="col-1">
                         <NavLink className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
