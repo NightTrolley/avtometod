@@ -1,0 +1,31 @@
+.map {
+    position: relative;
+}
+
+.contacts-block {
+    position: absolute;
+    background-color: #fff;
+    padding: 40px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    left: 15rem;
+    top: 60px;
+
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contacts-block p {
+    line-height: 1.5;
+}
+
+.contacts-block .title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.contacts-block span {
+    font-weight: 400;
+    font-size: 14px;
+}
