@@ -23,7 +23,7 @@ const FooterComponent = () => {
                     <Link to="/">О нас</Link>
                 </div>
                 <div>
-                    <Link to="/">онлайн</Link>
+                    <Link to="/">Онлайн</Link>
                 </div>
                 <div>
                     <Link to="/">Контакты</Link>
