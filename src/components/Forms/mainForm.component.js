@@ -20,8 +20,8 @@ const MainFormComponent = () => {
     // const onSubmit = (data) => console.log(data);
 
     const onSubmit = async (data) => {
-        await new Promise(resolve => setTimeout(resolve, 100000));
-        console.log(data)
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        alert("Форма отправлена!")
     }
 
     return (
@@ -51,7 +51,6 @@ const MainFormComponent = () => {
                     errors={errors}
                     name="name"
                     render={({messages}) => {
-                        console.log("messages", messages);
                         return messages
                             ? Object.entries(messages).map(([type, message]) => (
                                 <p key={type} className="input-error">{message}</p>
@@ -82,7 +81,6 @@ const MainFormComponent = () => {
                     errors={errors}
                     name="phone"
                     render={({messages}) => {
-                        console.log("messages", messages);
                         return messages
                             ? Object.entries(messages).map(([type, message]) => (
                                 <p key={type} className={"input-error"}>{message}</p>
