@@ -3,9 +3,8 @@ import {useForm} from "react-hook-form";
 import {ErrorMessage} from "@hookform/error-message";
 import SecondaryButton from "../Buttons/secondaryButton/secondaryButton";
 import "./main.form.css"
-import {data} from "react-router";
 
-const MainFormComponent = () => {
+const MainFormComponent = ({button_text}) => {
     const {
         register,
         handleSubmit,
@@ -16,8 +15,6 @@ const MainFormComponent = () => {
             phone: "+7"
         },
     });
-
-    // const onSubmit = (data) => console.log(data);
 
     const onSubmit = async (data) => {
         await new Promise(resolve => setTimeout(resolve, 1000));
@@ -90,8 +87,7 @@ const MainFormComponent = () => {
                 />
 
             </div>
-
-            <SecondaryButton text="Отправить заявку" type={"submit"} isSubmitting={isSubmitting}/>
+            <SecondaryButton text={button_text} type={"submit"} isSubmitting={isSubmitting}/>
         </form>
     );
 };

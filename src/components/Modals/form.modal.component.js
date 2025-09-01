@@ -14,7 +14,7 @@ const FormModalComponent = ({show, onHide}) => {
                             <span>Оставьте заявку и наш менеджер свяжется с вами в течение 15 минут!</span>
                         </div>
                         <div className="form-wrapper mx-auto col-12 col-md-7">
-                            <MainFormComponent/>
+                            <MainFormComponent button_text={"Отправить заявку"}/>
                         </div>
                     </div>
                 </ModalBody>
