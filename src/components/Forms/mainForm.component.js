@@ -1,61 +1,99 @@
 import React from 'react';
-import {validateForm} from "../../utils/validateForm";
-import useForm from "../../hooks/useForm";
+import {useForm} from "react-hook-form";
+import {ErrorMessage} from "@hookform/error-message";
 import SecondaryButton from "../Buttons/secondaryButton/secondaryButton";
-import PhoneInput from "./inputs/phoneInput.component";
+import "./main.form.css"
+import {data} from "react-router";
 
 const MainFormComponent = () => {
+    const {
+        register,
+        handleSubmit,
+        formState: {errors, isSubmitting}
+    } = useForm({
+        criteriaMode: "all",
+        defaultValues: {
+            phone: "+7"
+        },
+    });
 
-    const initialValues = {
-        name: '',
-        phone: '',
-    };
+    // const onSubmit = (data) => console.log(data);
 
-    const {values, errors, isSubmitting, handleChange, handleSubmit} = useForm(
-        initialValues,
-        validateForm
-    );
-
-    const onSubmit = async (formData) => {
-        try {
-            // Имитация отправки на сервер
-            console.log('Отправка данных:', formData);
-            await new Promise(resolve => setTimeout(resolve, 1000));
-
-            // Здесь можно добавить реальный API вызов
-            // const response = await fetch('/api/submit-form', {
-            //   method: 'POST',
-            //   headers: {
-            //     'Content-Type': 'application/json',
-            //   },
-            //   body: JSON.stringify(formData),
-            // });
-
-            alert('Форма успешно отправлена!');
-        } catch (error) {
-            console.error('Ошибка при отправке формы:', error);
-            alert('Произошла ошибка при отправке формы');
-        }
-    };
+    const onSubmit = async (data) => {
+        await new Promise(resolve => setTimeout(resolve, 100000));
+        console.log(data)
+    }
 
     return (
-        <form className="d-flex flex-column how-to-start-form" onSubmit={handleSubmit(onSubmit)}>
-            <div className="d-flex flex-column">
-                <input
-                    type="text"
-                    name="name"
-                    placeholder="Имя"
-                    value={values.name}
-                    onChange={handleChange}
+        <form className={"how-to-start-form d-flex flex-column"}
+            onSubmit={handleSubmit(onSubmit)}
+        >
+            <div className="">
+                <input className="col-12"
+                       {...register("name", {
+                           required: "Это обязательное поле",
+                           pattern: {
+                               value: /^[А-ЯЁа-яё]+$/,
+                               message: "Поле может содержать только кириллицу"
+                           },
+                           minLength: {
+                               value: 2,
+                               message: "Поле должно содержать не менее 2 символов"
+                           },
+                           maxLength: {
+                               value: 20,
+                               message: "Поле не должно содержать больше 20 символов"
+                           }
+                       })}
+                    placeholder={"Имя"}
                 />
-                {errors.name}
+                <ErrorMessage
+                    errors={errors}
+                    name="name"
+                    render={({messages}) => {
+                        console.log("messages", messages);
+                        return messages
+                            ? Object.entries(messages).map(([type, message]) => (
+                                <p key={type} className="input-error">{message}</p>
+                            ))
+                            : null;
+                    }}
+                />
             </div>
-            <div className="d-flex flex-column">
-                <PhoneInput/>
-                {errors.phone}
+            <div className="">
+                <input className="col-12"
+                       {...register("phone", {
+                           required: "Это обязательное поле",
+                           pattern: {
+                               value: /^\+[1-9]\d{0,3}[\s-]?\(?\d{1,4}\)?[\s-]?\d{1,4}[\s-]?\d{1,4}[\s-]?\d{1,9}$/,
+                               message: "Поле может содержать только цифры"
+                           },
+                           minLength: {
+                               value: 12,
+                               message: "Поле должно содержать не менее 12 символов"
+                           },
+                           maxLength: {
+                               value: 20,
+                               message: "Поле не должно содержать больше 20 символов"
+                           }
+                       })}
+                />
+                <ErrorMessage
+                    errors={errors}
+                    name="phone"
+                    render={({messages}) => {
+                        console.log("messages", messages);
+                        return messages
+                            ? Object.entries(messages).map(([type, message]) => (
+                                <p key={type} className={"input-error"}>{message}</p>
+                            ))
+                            : null;
+                    }}
+                />
+
             </div>
-            <SecondaryButton text={"Бесплатная консультация"} isSubmitting={isSubmitting}
-                             type={"submit"}/>
+
+            <SecondaryButton text="Отправить заявку" type={"submit"} isSubmitting={isSubmitting}/>
         </form>
     );
 };

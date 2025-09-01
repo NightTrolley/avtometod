@@ -1,43 +1,54 @@
-@media (max-width: 768px) {
-    .call-modal .modal-body{
-        padding: 25px !important;
-    }
+/*@media (max-width: 768px) {*/
+/*    .call-modal .modal-body{*/
+/*        padding: 25px !important;*/
+/*    }*/
 
-    .call-modal .text {
-        font-weight: 500;
-        font-size: 18px !important;
-        line-height: 1.7 !important;
-        margin-bottom: 15px;
-    }
+/*    .call-modal .text {*/
+/*        font-weight: 500;*/
+/*        font-size: 18px !important;*/
+/*        line-height: 1.7 !important;*/
+/*        margin-bottom: 15px;*/
+/*    }*/
 
-    .call-modal .modal-header{
-        padding: 10px 25px 0 25px !important;
-    }
-}
+/*    .call-modal .modal-header{*/
+/*        padding: 10px 25px 0 25px !important;*/
+/*    }*/
+/*}*/
 
-.call-modal .modal-body {
-    background-color: #FF6F0026;
-}
+/*.call-modal .modal-body {*/
+/*    background-color: #FF6F0026;*/
+/*}*/
 
-.call-modal .modal-header {
-    background-color: #FF6F0026;
-}
+/*.call-modal .modal-header {*/
+/*    background-color: #FF6F0026;*/
+/*}*/
 
 .call-modal .text {
-    font-weight: 500;
-    font-size: 23px;
-    line-height: 2;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 1.2;
+    margin-bottom: 25px;
 }
 
-.call-modal .modal-header {
-    font-weight: 600;
-    font-size: 25px;
+.call-modal .text span {
+    font-weight: 500;
+    font-size: 18px;
+    color: #555555;
 }
+
+/*.call-modal .modal-header {*/
+/*    font-weight: 600;*/
+/*    font-size: 25px;*/
+/*}*/
 
 .call-modal .modal-body{
     padding: 40px;
 }
 
-.call-modal .modal-header{
-    padding: 20px 40px;
+/*.call-modal .modal-header{*/
+/*    padding: 20px 40px;*/
+/*}*/
+
+.call-modal form input {
+    border: 1px solid #555555;
 }
