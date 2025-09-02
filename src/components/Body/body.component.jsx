@@ -46,7 +46,7 @@ const BodyComponent = () => {
             <div className="advantage-block-wrapper mt-4 flex-column flex-md-row d-flex">
                 <div className="flex-column col-12 col-md-6">
                     <h1 className="col sm-fs-5 mb-4">
-                        Автошкола в Москве
+                        Получите права в Москве всего за 26 900 ₽
                     </h1>
                     <h3 className="col sm-fs-3">
                         Учитесь водить рядом с домом, работой

@@ -64,10 +64,10 @@ const Header = () => {
                             <div className="links">
                                 <div className="collapse-menu-links d-flex flex-column">
                                     <div>
-                                        <Link to="/education">Обучение</Link>
+                                        <Link to="/about">О нас</Link>
                                     </div>
                                     <div>
-                                        <Link to="/about">О нас</Link>
+                                        <Link to="/education">Обучение</Link>
                                     </div>
                                     <div>
                                         <Link to="/online">Онлайн</Link>
