@@ -3,8 +3,13 @@ import "./education.a.page.css"
 import {drivingCoursesA} from "../../config/drivingCoursesData";
 import DrivingCourseCard from "../../components/DrivingCourseCard/drivingCourseCard";
 import FooterComponent from "../../components/Footer/footer.component";
+import {useModalContext} from "../../Context/modalContext";
+import FormModalComponent from "../../components/Modals/form.modal.component";
 
 const EducationAPage = () => {
+
+    const {isModalOpen, handleOpenModal, handleCloseModal} = useModalContext();
+
     return (
         <div className="education-a-page">
             <div className="container-fluid container-md">
@@ -92,7 +97,7 @@ const EducationAPage = () => {
                     </p>
                     <div className="a-page-price-card-wrapper d-flex row justify-content-evenly">
                         {drivingCoursesA.map(course => (
-                            <DrivingCourseCard key={course.id} course={course}/>
+                            <DrivingCourseCard key={course.id} course={course} handleOpenModal={handleOpenModal}/>
                         ))}
                     </div>
                 </div>
@@ -209,6 +214,10 @@ const EducationAPage = () => {
             <div className="container">
                 <FooterComponent/>
             </div>
+            <FormModalComponent
+                show={isModalOpen}
+                onHide={handleCloseModal}
+            />
         </div>
     );
 };

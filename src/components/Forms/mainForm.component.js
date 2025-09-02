@@ -30,10 +30,10 @@ const MainFormComponent = ({button_text}) => {
         }
 
         const successBlock = document.querySelector(".quiz-success-send")
-        document.querySelector(".quiz-form").classList.add("d-none")
-        successBlock.classList.remove("d-none")
-        successBlock.classList.add("d-block")
-        await new Promise(resolve => setTimeout(resolve, 1));
+        document.querySelector(".quiz-form")?.classList?.add("d-none")
+        successBlock?.classList?.remove("d-none")
+        successBlock?.classList?.add("d-block")
+        await new Promise(resolve => setTimeout(resolve, 1000));
         console.log(allData)
     }
 

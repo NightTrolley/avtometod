@@ -8,7 +8,6 @@ import PrimaryButtonComponent from "../Buttons/primaryButton/primary.button.comp
 import GhostBtnComponent from "../Buttons/ghost.btn.component";
 import PayCardComponent from "./PayCard/pay.card.component";
 import AchivmentComponent from "./Achiwment/achivment.component";
-import FreeLessonComponent from "./Free-lesson/free.lesson.component";
 import DrivingCourseCard from "../DrivingCourseCard/drivingCourseCard";
 import {drivingCourses} from "../../config/drivingCoursesData";
 import EducationProcessComponent from "../EducationProcess/education.process.component";
@@ -27,18 +26,12 @@ import FooterComponent from "../Footer/footer.component";
 import FormModalComponent from "../Modals/form.modal.component";
 import {useForm} from "../../hooks/useForm";
 import QuizComponent from "../Quiz/quiz.component";
+import {useModalContext} from "../../Context/modalContext";
+import MainFormComponent from "../Forms/mainForm.component";
 
 const BodyComponent = () => {
 
-    const [isModalOpen, setIsModalOpen] = useState(false);
-
-    const handleOpenModal = () => {
-        setIsModalOpen(true);
-    };
-
-    const handleCloseModal = () => {
-        setIsModalOpen(false);
-    };
+    const {isModalOpen, handleOpenModal, handleCloseModal} = useModalContext();
 
     return (
         <div className="container-md g-md-0 container-fluid">
@@ -106,7 +99,7 @@ const BodyComponent = () => {
                 </div>
                 <div className="container justify-content-between row g-0 gap-5">
                     {drivingCourses.map(course => (
-                        <DrivingCourseCard key={course.id} course={course} />
+                        <DrivingCourseCard key={course.id} course={course} handleOpenModal={handleOpenModal} />
                     ))}
                 </div>
             </section>
@@ -153,16 +146,12 @@ const BodyComponent = () => {
                                 </p>
                             </div>
                             <div className="inputs col-md-5 col-12">
-                                <form action="/" className="d-flex flex-column">
-                                    <input type="text" className="name" placeholder="Имя"/>
-                                    <input type="tel" className="number" placeholder="+7 (999) 999-99-99"/>
-                                    <SecondaryButton text="Бесплатная консультация"/>
-                                </form>
+                            <MainFormComponent button_text={"Бесплатная консультация"}/>
                             </div>
                         </div>
                     </div>
                 </div>
-                <OurFleetComponent/>
+                <OurFleetComponent handleOpenModal={handleOpenModal}/>
                 <div className="button-wrapper d-none mx-auto mt-5 col-12 col-md-4">
                     <SecondaryButton text={"Посмотреть еще автомобили"}/>
                 </div>

@@ -11,25 +11,28 @@ import OnlinePage from "./pages/online/online.page";
 import PolicyPage from "./pages/policy/policy.page";
 import ContactsPage from "./pages/contacts/contacts.page";
 import {QuizProvider} from "./Context/quizContext";
+import {ModalContextProvider} from "./Context/modalContext";
 
 function App() {
     return (
-        <QuizProvider>
-            <div className="App">
-                <Header/>
-                <Routes>
-                    <Route path="/" exact element={<BodyComponent/>}/>
-                    <Route path="/about" exact element={<About/>}/>
-                    <Route path="/education" exact element={<EducationPage/>}/>
-                    <Route path="/education-b" exact element={<EducationBPage/>}/>
-                    <Route path="/education-a" exact element={<EducationAPage/>}/>
-                    <Route path="/online" exact element={<OnlinePage/>}/>
-                    <Route path="/policy" exact element={<PolicyPage/>}/>
-                    <Route path="/contacts" exact element={<ContactsPage/>}/>
-                    <Route path="*" exact element={<NotFoundPage/>}/>
-                </Routes>
-            </div>
-        </QuizProvider>
+        <ModalContextProvider>
+            <QuizProvider>
+                <div className="App">
+                    <Header/>
+                    <Routes>
+                        <Route path="/" exact element={<BodyComponent/>}/>
+                        <Route path="/about" exact element={<About/>}/>
+                        <Route path="/education" exact element={<EducationPage/>}/>
+                        <Route path="/education-b" exact element={<EducationBPage/>}/>
+                        <Route path="/education-a" exact element={<EducationAPage/>}/>
+                        <Route path="/online" exact element={<OnlinePage/>}/>
+                        <Route path="/policy" exact element={<PolicyPage/>}/>
+                        <Route path="/contacts" exact element={<ContactsPage/>}/>
+                        <Route path="*" exact element={<NotFoundPage/>}/>
+                    </Routes>
+                </div>
+            </QuizProvider>
+        </ModalContextProvider>
     )
 }
 

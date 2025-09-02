@@ -3,7 +3,8 @@ import "./ourFleet.component.css"
 import {fleetData} from "../../config/fleet.data";
 import PrimaryButtonComponent from "../Buttons/primaryButton/primary.button.component";
 
-const OurFleetComponent = () => {
+const OurFleetComponent = ({handleOpenModal}) => {
+    console.log(handleOpenModal)
     return (
         <div className="car_card_wrapper justify-content-center row g-0">
         {fleetData.map((item) => (
@@ -13,7 +14,7 @@ const OurFleetComponent = () => {
                 <p className="gear_box">Коробка: {item.gearbox}</p>
                 <p className="year">{item.year}</p>
                 <div className="button-wrapper mx-auto col-10">
-                    <PrimaryButtonComponent text={"Записаться на урок"}/>
+                    <PrimaryButtonComponent text={"Записаться на урок"} onClick={handleOpenModal}/>
                 </div>
             </div>
         ))}

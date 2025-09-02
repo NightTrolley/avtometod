@@ -1,7 +1,8 @@
 import React from 'react';
 import "./driving.courses.style.css";
+import PrimaryButtonComponent from "../Buttons/primaryButton/primary.button.component";
 
-const DrivingCourseCard = ({course}) => {
+const DrivingCourseCard = ({course, handleOpenModal}) => {
     return (
         <div className="course-card d-flex flex-column col-12 col-md-3"
              style={{border: `2px solid ${course.color}`, color: course.color}}>
@@ -10,13 +11,15 @@ const DrivingCourseCard = ({course}) => {
 
             <div className="payment-options">
                 {course.paymentOptions.map((option, index) => (
-                    <span key={index} className="payment-option" style={{color: index === 0 ? course.color : "#000000" }}>{option}</span>
+                    <span key={index} className="payment-option"
+                          style={{color: index === 0 ? course.color : "#000000"}}>{option}</span>
                 ))}
             </div>
 
             <div className="course-price">{course.price}</div>
 
-            <button className="apply-button align-items-center d-flex justify-content-center" style={{backgroundColor: course.color}}>
+            <button className="apply-button align-items-center d-flex justify-content-center"
+                    style={{backgroundColor: course.color}} onClick={handleOpenModal}>
                 Оставить заявку
             </button>
 

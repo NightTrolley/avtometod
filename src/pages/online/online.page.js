@@ -2,6 +2,7 @@ import React from 'react';
 import SecondaryButton from "../../components/Buttons/secondaryButton/secondaryButton";
 import "./online.page.styles.css"
 import FooterComponent from "../../components/Footer/footer.component";
+import MainFormComponent from "../../components/Forms/mainForm.component";
 
 const OnlinePage = () => {
     return (
@@ -29,11 +30,7 @@ const OnlinePage = () => {
                         </p>
                     </div>
                     <div className="form-wrapper col-12 col-md-5">
-                        <form action="" className="d-flex flex-column how-to-start-form">
-                            <input type="text" name="name" placeholder="Имя" required={true}/>
-                            <input type="tel" name="phone" placeholder="+7 (999) 999-99-99" required={true}/>
-                            <SecondaryButton text={"Бесплатная консультация"}/>
-                        </form>
+                       <MainFormComponent button_text={"Бесплатная консультация"}/>
                     </div>
                 </div>
                 <div className="online-advantages spacer-80">
