@@ -185,7 +185,7 @@ const QuizComponent = () => {
                 <div className="quiz-info d-flex flex-column col-12 col-md-3">
                     <p>После прохождения опроса Вы получите подарки от автошколы "Автометод"</p>
                     <div className="benefit">
-                        Скидка 5000 ₽ 🎁
+                        Скидка 3000 ₽ 🎁
                     </div>
                     <div className="benefit">
                         Курс теории ПДД 🚦
