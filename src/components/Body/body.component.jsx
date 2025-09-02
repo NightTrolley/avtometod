@@ -88,6 +88,10 @@ const BodyComponent = () => {
                 <AchivmentComponent/>
             </section>
             <section className="quiz-block spacer">
+                <h2 className="quiz-title">
+                    Пройдите опрос и получите
+                    2 подарка от автошколы!
+                </h2>
                 <QuizComponent/>
             </section>
             <section className="driving-courses_section spacer">
