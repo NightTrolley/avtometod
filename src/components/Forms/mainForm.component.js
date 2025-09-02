@@ -3,8 +3,13 @@ import {useForm} from "react-hook-form";
 import {ErrorMessage} from "@hookform/error-message";
 import SecondaryButton from "../Buttons/secondaryButton/secondaryButton";
 import "./main.form.css"
+import {useQuiz} from "../../Context/quizContext";
 
 const MainFormComponent = ({button_text}) => {
+
+    const {quizData} = useQuiz();
+
+
     const {
         register,
         handleSubmit,
@@ -16,9 +21,20 @@ const MainFormComponent = ({button_text}) => {
         },
     });
 
+
+
     const onSubmit = async (data) => {
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        alert("Форма отправлена!")
+        const allData = {
+            ...data,
+            ...quizData
+        }
+
+        const successBlock = document.querySelector(".quiz-success-send")
+        document.querySelector(".quiz-form").classList.add("d-none")
+        successBlock.classList.remove("d-none")
+        successBlock.classList.add("d-block")
+        await new Promise(resolve => setTimeout(resolve, 1));
+        console.log(allData)
     }
 
     return (

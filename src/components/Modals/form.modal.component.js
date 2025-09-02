@@ -1,5 +1,5 @@
 import React from 'react';
-import {Modal, ModalBody, ModalHeader} from "react-bootstrap";
+import {Modal, ModalBody} from "react-bootstrap";
 import "./call-modal.styles.css"
 import MainFormComponent from "../Forms/mainForm.component";
 
@@ -14,7 +14,7 @@ const FormModalComponent = ({show, onHide}) => {
                             <span>Оставьте заявку и наш менеджер свяжется с вами в течение 15 минут!</span>
                         </div>
                         <div className="form-wrapper mx-auto col-12 col-md-7">
-                            <MainFormComponent button_text={"Отправить заявку"}/>
+                            <MainFormComponent button_text={"Отправить заявку"} onClick={()=>{}}/>
                         </div>
                     </div>
                 </ModalBody>

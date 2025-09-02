@@ -26,6 +26,7 @@ import {Accordion} from "react-bootstrap";
 import FooterComponent from "../Footer/footer.component";
 import FormModalComponent from "../Modals/form.modal.component";
 import {useForm} from "../../hooks/useForm";
+import QuizComponent from "../Quiz/quiz.component";
 
 const BodyComponent = () => {
 
@@ -86,8 +87,8 @@ const BodyComponent = () => {
             <section className="achievement-section spacer">
                 <AchivmentComponent/>
             </section>
-            <section className="education-process spacer">
-                <FreeLessonComponent/>
+            <section className="quiz-block spacer">
+                <QuizComponent/>
             </section>
             <section className="driving-courses_section spacer">
                 <div className="title container text-center">
