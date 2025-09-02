@@ -17,16 +17,16 @@ const FooterComponent = () => {
             </NavbarBrand>
             <div className="page-links col-md-2 d-flex flex-column">
                 <div>
-                    <Link to="/">Обучение</Link>
+                    <Link to="/education">Обучение</Link>
                 </div>
                 <div>
-                    <Link to="/">О нас</Link>
+                    <Link to="/about">О нас</Link>
                 </div>
                 <div>
-                    <Link to="/">Онлайн</Link>
+                    <Link to="/online">Онлайн</Link>
                 </div>
                 <div>
-                    <Link to="/">Контакты</Link>
+                    <Link to="/contacts">Контакты</Link>
                 </div>
                 <div>
                     <Link to="/policy">Политика в отношении обработки персональных данных</Link>
@@ -34,9 +34,9 @@ const FooterComponent = () => {
             </div>
             <div className="soc-links col-md-2">
                 <div className="social-block">
-                    <SocialComponent link={"/aas"} icon={telegram_icon} alt={"telegram"}/>
-                    <SocialComponent link={"/aas"} icon={vk_icon} alt={"vk"}/>
-                    <SocialComponent link={"/aas"} icon={wa_icon} alt={"whatsapp"}/>
+                    <SocialComponent link={"/"} icon={telegram_icon} alt={"telegram"}/>
+                    <SocialComponent link={"/"} icon={vk_icon} alt={"vk"}/>
+                    <SocialComponent link={"/"} icon={wa_icon} alt={"whatsapp"}/>
                 </div>
             </div>
             <div className="contact-block col-md-3">

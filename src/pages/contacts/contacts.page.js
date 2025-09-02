@@ -34,7 +34,6 @@ const ContactsPage = () => {
                     src="https://yandex.ru/map-widget/v1/?um=constructor%3A71092a92ef834b07abcf1e930075d00caee3b56b24e84b8b9ab6c91bbda912c4&amp;source=constructor"
                     width="100%" height="550" frameBorder="0" className="spacer-40"></iframe>
             </div>
-
             <div className="container">
                 <FooterComponent/>
             </div>
