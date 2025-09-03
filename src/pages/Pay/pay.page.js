@@ -82,7 +82,7 @@ const PayPage = () => {
                 <p className="">
                     Вы можете скачать и ознакомиться с примером договора нашей автошколы с учениками:
                 </p>
-                <a href="/" className="">Договор оферты</a>
+                <a href="/agreement/Договор_оферта_ООО_Автометод+правки.pdf" className="">Договор оферты</a>
             </div>
             <FooterComponent/>
         </div>
