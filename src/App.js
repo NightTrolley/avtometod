@@ -12,6 +12,7 @@ import PolicyPage from "./pages/policy/policy.page";
 import ContactsPage from "./pages/contacts/contacts.page";
 import {QuizProvider} from "./Context/quizContext";
 import {ModalContextProvider} from "./Context/modalContext";
+import PayPage from "./pages/Pay/pay.page";
 
 function App() {
     return (
@@ -28,6 +29,7 @@ function App() {
                         <Route path="/online" exact element={<OnlinePage/>}/>
                         <Route path="/policy" exact element={<PolicyPage/>}/>
                         <Route path="/contacts" exact element={<ContactsPage/>}/>
+                        <Route path="/pay" exact element={<PayPage/>}/>
                         <Route path="*" exact element={<NotFoundPage/>}/>
                     </Routes>
                 </div>

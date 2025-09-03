@@ -1,0 +1,51 @@
+.pay-page {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.pay-page .advantage-number {
+    font-size: 30px;
+}
+
+.pay-methods__wrapper {
+    gap: 35px;
+}
+
+.pay-page .pay-methods-title {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.for-you-title {
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.pay-page .page-title {
+    margin-bottom: 30px;
+}
+
+.pay-methods {
+    margin-bottom: 60px;
+}
+
+.for-you {
+    gap: 26px;
+}
+
+.packets {
+    margin-top: 40px;
+}
+
+.agreement-link {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.agreement-link a {
+    color: var(--primary-orange) !important;
+}
+
+.pay-methods__wrapper .why-us-advantage__item {
+    gap: 10px;
+}
