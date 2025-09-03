@@ -8,7 +8,7 @@ const PayPage = () => {
             <p className="page-title">
                 Оплата
             </p>
-            <div className="pay-methods col-12">
+            <div className="pay-methods col-10 col-md-12">
                 <p className="pay-methods-title">
                     Оплатить обучение в автошколе «АвтоМетод» вы можете несколькими способами:
                 </p>
