@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddb1d06-c7f7-4d59-816d-b47264a45f75" name="Changes" comment="add pay page">
+    <list default="true" id="3ddb1d06-c7f7-4d59-816d-b47264a45f75" name="Changes" comment="change phone link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Pay/pay.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Pay/pay.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/body.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/body.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Forms/mainForm.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/mainForm.component.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,47 +158,7 @@
       <workItem from="1756373479454" duration="2452000" />
       <workItem from="1756380436745" duration="54436000" />
       <workItem from="1756729986209" duration="1000" />
-      <workItem from="1756730004844" duration="30244000" />
-    </task>
-    <task id="LOCAL-00021" summary="some fixes on A-page">
-      <option name="closed" value="true" />
-      <created>1756419026056</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1756419026056</updated>
-    </task>
-    <task id="LOCAL-00022" summary="some fixes on A-page">
-      <option name="closed" value="true" />
-      <created>1756420291406</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1756420291406</updated>
-    </task>
-    <task id="LOCAL-00023" summary="fix how-subscribe-wrapper on A-page">
-      <option name="closed" value="true" />
-      <created>1756420639526</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1756420639526</updated>
-    </task>
-    <task id="LOCAL-00024" summary="fix how-subscribe-wrapper on A-page">
-      <option name="closed" value="true" />
-      <created>1756421316927</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1756421316927</updated>
-    </task>
-    <task id="LOCAL-00025" summary="fix email and address">
-      <option name="closed" value="true" />
-      <created>1756421615329</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1756421615329</updated>
+      <workItem from="1756730004844" duration="33753000" />
     </task>
     <task id="LOCAL-00026" summary="fix course content texts">
       <option name="closed" value="true" />
@@ -549,7 +512,47 @@
       <option name="project" value="LOCAL" />
       <updated>1756922740626</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="fix pay page">
+      <option name="closed" value="true" />
+      <created>1756923038110</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1756923038110</updated>
+    </task>
+    <task id="LOCAL-00071" summary="fix pay page agreement link">
+      <option name="closed" value="true" />
+      <created>1756923106054</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1756923106054</updated>
+    </task>
+    <task id="LOCAL-00072" summary="add yandex metrika">
+      <option name="closed" value="true" />
+      <created>1756977339980</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1756977339980</updated>
+    </task>
+    <task id="LOCAL-00073" summary="add social links">
+      <option name="closed" value="true" />
+      <created>1756978982070</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1756978982070</updated>
+    </task>
+    <task id="LOCAL-00074" summary="change phone link">
+      <option name="closed" value="true" />
+      <created>1756979164301</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1756979164301</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,11 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added mailto and tel links" />
-    <MESSAGE value="add modal form" />
-    <MESSAGE value="add agreement file" />
-    <MESSAGE value="change agreement file" />
-    <MESSAGE value="add policy page" />
     <MESSAGE value="add contact page" />
     <MESSAGE value="remove vacancy links" />
     <MESSAGE value="some changes" />
@@ -592,7 +590,12 @@
     <MESSAGE value="change map" />
     <MESSAGE value="changes" />
     <MESSAGE value="add pay page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pay page" />
+    <MESSAGE value="fix pay page" />
+    <MESSAGE value="fix pay page agreement link" />
+    <MESSAGE value="add yandex metrika" />
+    <MESSAGE value="add social links" />
+    <MESSAGE value="change phone link" />
+    <option name="LAST_COMMIT_MESSAGE" value="change phone link" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

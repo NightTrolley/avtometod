@@ -28,6 +28,10 @@ import {useForm} from "../../hooks/useForm";
 import QuizComponent from "../Quiz/quiz.component";
 import {useModalContext} from "../../Context/modalContext";
 import MainFormComponent from "../Forms/mainForm.component";
+import {Swiper, SwiperSlide} from "swiper/react";
+import {Zoom} from "swiper/modules";
+import 'swiper/css/zoom';
+import 'swiper/css';
 
 const BodyComponent = () => {
 
@@ -155,6 +159,21 @@ const BodyComponent = () => {
                 <div className="button-wrapper d-none mx-auto mt-5 col-12 col-md-4">
                     <SecondaryButton text={"Посмотреть еще автомобили"}/>
                 </div>
+            </section>
+            <section className="license d-none">
+                <Swiper
+                    modules={[Zoom]}
+                    zoom={true}
+                >
+                    <SwiperSlide>
+                        <div className="col-12 swiper-zoom-container">
+                            <img src="/license/license-1.png" alt="" className="img-fluid"/>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/license/license-2.png" alt=""/>
+                    </SwiperSlide>
+                </Swiper>
             </section>
             <section className="reviews d-none spacer">
                 <div className="reviews-wrapper row g-0">

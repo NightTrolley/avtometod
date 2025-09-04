@@ -4,6 +4,7 @@ import {ErrorMessage} from "@hookform/error-message";
 import SecondaryButton from "../Buttons/secondaryButton/secondaryButton";
 import "./main.form.css"
 import {useQuiz} from "../../Context/quizContext";
+import axios from "axios";
 
 const MainFormComponent = ({button_text}) => {
 
@@ -22,24 +23,35 @@ const MainFormComponent = ({button_text}) => {
     });
 
 
-
     const onSubmit = async (data) => {
         const allData = {
             ...data,
             ...quizData
         }
 
+        const webHookUrl = "https://webjack.ru/webhooks/http/fc7e2081aeb840798f4b97783b5f1526/";
+
         const successBlock = document.querySelector(".quiz-success-send")
         document.querySelector(".quiz-form")?.classList?.add("d-none")
         successBlock?.classList?.remove("d-none")
         successBlock?.classList?.add("d-block")
+        try {
+            const response = await axios.post(
+                webHookUrl,
+                {allData},
+                {headers: {"Access-Control-Allow-Origin": "*"}}
+            )
+            console.log('response data', response)
+        } catch (error) {
+            console.log(error)
+        }
         await new Promise(resolve => setTimeout(resolve, 1000));
         console.log(allData)
     }
 
     return (
         <form className={"how-to-start-form d-flex flex-column"}
-            onSubmit={handleSubmit(onSubmit)}
+              onSubmit={handleSubmit(onSubmit)}
         >
             <div className="">
                 <input className="col-12"
@@ -58,7 +70,7 @@ const MainFormComponent = ({button_text}) => {
                                message: "Поле не должно содержать больше 20 символов"
                            }
                        })}
-                    placeholder={"Имя"}
+                       placeholder={"Имя"}
                 />
                 <ErrorMessage
                     errors={errors}
