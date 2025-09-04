@@ -81,8 +81,8 @@ const Header = () => {
                             <div className="soc-links text-center mx-auto">
                                 <p>Присоединиться</p>
                                 <div className="soc-links-list d-flex">
-                                    <SocialComponent link={"/"} icon={telegram_icon} alt={"telegram"}/>
-                                    <SocialComponent link={"/"} icon={vk_icon} alt={"vk"}/>
+                                    <SocialComponent link={"https://t.me/AvtoMetodmsk"} icon={telegram_icon} alt={"telegram"}/>
+                                    <SocialComponent link={"https://vk.com/avtometod"} icon={vk_icon} alt={"vk"}/>
                                     <SocialComponent link={"/"} icon={wa_icon} alt={"whatsapp"}/>
                                 </div>
 
@@ -112,8 +112,8 @@ const Header = () => {
                                               secondText={"Киевская улица 14"} icon={location_icon}/>
                         </div>
                         <div className="social-block">
-                            <SocialComponent link={"/"} icon={telegram_icon} alt={"telegram"}/>
-                            <SocialComponent link={"/"} icon={vk_icon} alt={"vk"}/>
+                            <SocialComponent link={"https://t.me/AvtoMetodmsk"} icon={telegram_icon} alt={"telegram"}/>
+                            <SocialComponent link={"https://vk.com/avtometod"} icon={vk_icon} alt={"vk"}/>
                             <SocialComponent link={"/"} icon={wa_icon} alt={"whatsapp"}/>
                         </div>
                         <div className="divider"></div>

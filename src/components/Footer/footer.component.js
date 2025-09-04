@@ -34,8 +34,8 @@ const FooterComponent = () => {
             </div>
             <div className="soc-links col-md-2">
                 <div className="social-block">
-                    <SocialComponent link={"/"} icon={telegram_icon} alt={"telegram"}/>
-                    <SocialComponent link={"/"} icon={vk_icon} alt={"vk"}/>
+                    <SocialComponent link={"https://t.me/AvtoMetodmsk"} icon={telegram_icon} alt={"telegram"}/>
+                    <SocialComponent link={"https://vk.com/avtometod"} icon={vk_icon} alt={"vk"}/>
                     <SocialComponent link={"/"} icon={wa_icon} alt={"whatsapp"}/>
                 </div>
             </div>
