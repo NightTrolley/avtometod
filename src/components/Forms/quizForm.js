@@ -101,6 +101,7 @@ const QuizForm = ({button_text}) => {
 
             </div>
             <SecondaryButton text={button_text} type={"submit"} isSubmitting={isSubmitting}/>
+            <input type="text" hidden={true} value={"quiz"} {...register("form-name")}/>
         </form>
     );
 };
