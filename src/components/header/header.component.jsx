@@ -73,6 +73,9 @@ const Header = () => {
                                         <Link to="/online">Онлайн</Link>
                                     </div>
                                     <div>
+                                        <Link to="/pay">Оплата</Link>
+                                    </div>
+                                    <div>
                                         <Link to="/contacts">Контакты</Link>
                                     </div>
                                 </div>
