@@ -64,6 +64,11 @@
     .slogan p:nth-of-type(1) {
         margin-bottom: 10px !important;
     }
+
+    .quiz-block {
+        margin-top: 60px !important;
+        margin-bottom: 60px !important;
+    }
 }
 
 @media (min-width: 768px) {
@@ -321,4 +326,9 @@ h3 {
     font-size: 44px;
     margin-bottom: 40px;
     text-align: center;
+}
+
+.quiz-block {
+    margin-top: 110px;
+    margin-bottom: 110px;
 }

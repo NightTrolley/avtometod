@@ -81,20 +81,20 @@ const BodyComponent = () => {
                     </div>
                 </div>
             </div>
-            <section className="achievement-section spacer">
-                <AchivmentComponent/>
-            </section>
-            <section className="quiz-block spacer">
+            <section className="quiz-block">
                 <h2 className="quiz-title">
                     Пройдите опрос и получите
                     2 подарка от автошколы!
                 </h2>
                 <QuizComponent/>
             </section>
+            <section className="achievement-section spacer">
+                <AchivmentComponent/>
+            </section>
             <section className="driving-courses_section spacer">
                 <div className="title container text-center">
                     <div className="h3">
-                    Обучение вождению с комфортом и выгодой
+                        Обучение вождению с комфортом и выгодой
                         – ознакомьтесь с нашими ценами!
                     </div>
                     <div className="h6">
@@ -108,10 +108,10 @@ const BodyComponent = () => {
                 </div>
             </section>
             <section className="education-process-wrapper d-none d-md-flex spacer">
-                    <div className="title">
+                <div className="title">
 
-                    </div>
-                    <EducationProcessComponent/>
+                </div>
+                <EducationProcessComponent/>
             </section>
             <section className="comparison-section d-none d-md-block spacer">
                 <div className="h1">
@@ -150,7 +150,7 @@ const BodyComponent = () => {
                                 </p>
                             </div>
                             <div className="inputs col-md-5 col-12">
-                            <MainFormComponent button_text={"Бесплатная консультация"}/>
+                                <MainFormComponent button_text={"Бесплатная консультация"}/>
                             </div>
                         </div>
                     </div>
