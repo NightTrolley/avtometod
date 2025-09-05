@@ -20,7 +20,7 @@ const ContactsPage = () => {
                     </p>
                     <p className="phone">
                         <span>Телефон: </span><br></br>
-                        +7 (495) 019-95-88
+                        <a href="tel:+7 (495) 019-95-88">+7 (495) 019-95-88</a>
                     </p>
                     <p className="email">
                         <span>email:</span><br></br>

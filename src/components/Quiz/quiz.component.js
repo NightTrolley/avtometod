@@ -8,6 +8,7 @@ import "./quiz.form.css"
 import { Pagination, Navigation } from 'swiper/modules';
 import MainFormComponent from "../Forms/mainForm.component";
 import {useQuiz} from "../../Context/quizContext";
+import QuizForm from "../Forms/quizForm";
 
 const QuizComponent = () => {
 
@@ -173,7 +174,7 @@ const QuizComponent = () => {
                             <p className="las-step-desc">
                                 После отправки формы вы сможете сразу и бесплатно забрать 2 подарка
                             </p>
-                            <MainFormComponent button_text={"Забрать подарки"}/>
+                            <QuizForm button_text={"Забрать подарки"}/>
                         </SwiperSlide>
                     </div>
                     <div className="slide-navigation-buttons row">

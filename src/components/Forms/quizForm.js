@@ -1,13 +1,13 @@
 import React from 'react';
 import {useForm} from "react-hook-form";
+import {sendFormData} from "../../hooks/formSendHook";
 import {ErrorMessage} from "@hookform/error-message";
 import SecondaryButton from "../Buttons/secondaryButton/secondaryButton";
-import "./main.form.css"
 import {useQuiz} from "../../Context/quizContext";
-import axios from "axios";
-import {formSendHook, sendFormData} from "../../hooks/formSendHook";
 
-const MainFormComponent = ({button_text}) => {
+const QuizForm = ({button_text}) => {
+
+    const {quizData} = useQuiz();
 
     const {
         register,
@@ -22,9 +22,15 @@ const MainFormComponent = ({button_text}) => {
 
 
     const onSubmit = async (data) => {
-
-        await sendFormData(data)
-
+        const allData = {
+            ...quizData,
+            ...data
+        }
+        await sendFormData(allData)
+        const successBlock = document.querySelector(".quiz-success-send")
+        document.querySelector(".quiz-form")?.classList?.add("d-none")
+        successBlock?.classList?.remove("d-none")
+        successBlock?.classList?.add("d-block")
     }
 
     return (
@@ -99,4 +105,4 @@ const MainFormComponent = ({button_text}) => {
     );
 };
 
-export default MainFormComponent;
+export default QuizForm;

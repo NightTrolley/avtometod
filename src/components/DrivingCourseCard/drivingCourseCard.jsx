@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import "./driving.courses.style.css";
 import PrimaryButtonComponent from "../Buttons/primaryButton/primary.button.component";
 
 const DrivingCourseCard = ({course, handleOpenModal}) => {
+
+    const inputRef = useRef(null);
+
     return (
         <div className="course-card d-flex flex-column col-12 col-md-3"
              style={{border: `2px solid ${course.color}`, color: course.color}}>
@@ -19,7 +22,10 @@ const DrivingCourseCard = ({course, handleOpenModal}) => {
             <div className="course-price">{course.price}</div>
 
             <button className="apply-button align-items-center d-flex justify-content-center"
-                    style={{backgroundColor: course.color}} onClick={handleOpenModal}>
+                    style={{backgroundColor: course.color}} onClick={() => {
+                const r = inputRef.current?.value;
+                        handleOpenModal()
+            }}>
                 Оставить заявку
             </button>
 
@@ -37,6 +43,7 @@ const DrivingCourseCard = ({course, handleOpenModal}) => {
                 <span>{course.drivingHours}</span>
                 &nbsp;часов вождения
             </div>
+            <input type="text" hidden={true} value={course.title} ref={inputRef}/>
         </div>
     );
 };

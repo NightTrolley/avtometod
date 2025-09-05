@@ -103,7 +103,7 @@ const BodyComponent = () => {
                 </div>
                 <div className="container justify-content-between row g-0 gap-5">
                     {drivingCourses.map(course => (
-                        <DrivingCourseCard key={course.id} course={course} handleOpenModal={handleOpenModal} />
+                        <DrivingCourseCard key={course.id} course={course} handleOpenModal={handleOpenModal}/>
                     ))}
                 </div>
             </section>
