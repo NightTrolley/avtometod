@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const sendFormData = async (data) => {
-    console.log("Отправляемые данные:", data);
+    data = {...data, ...JSON.parse(localStorage.getItem('utms') || '{}')}
     const url = "https://webjack.ru/webhooks/http/fc7e2081aeb840798f4b97783b5f1526/";
 
     try {
@@ -9,6 +9,7 @@ export const sendFormData = async (data) => {
             url,
             data,
         );
+        console.log("Отправленные данные", data)
         console.log("Успешный ответ:", response);
         return response.data;
     } catch (e) {
