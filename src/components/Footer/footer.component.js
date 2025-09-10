@@ -36,7 +36,7 @@ const FooterComponent = () => {
                 <div className="social-block">
                     <SocialComponent link={"https://t.me/AvtoMetodmsk"} icon={telegram_icon} alt={"telegram"}/>
                     <SocialComponent link={"https://vk.com/avtometod"} icon={vk_icon} alt={"vk"}/>
-                    <SocialComponent link={"/"} icon={wa_icon} alt={"whatsapp"}/>
+                    <SocialComponent link={"https://wa.me/79999279039?text="} icon={wa_icon} alt={"whatsapp"}/>
                 </div>
             </div>
             <div className="contact-block col-md-3">
@@ -47,6 +47,13 @@ const FooterComponent = () => {
                                       secondText={<a href="mailto:info@avtometod.ru">info@avtometod.ru</a>}/>
                     <NavitemComponent class={"location_block"} firstText={"Адрес"}
                                       secondText={"г. Москва, Киевская улица, 14"}/>
+                    <div className="organisation-credentials">
+                        <p>
+                            ИНН: <b>9723249331</b><br></br>
+                            ОГРН: <b>1257700099040</b><br></br>
+                            Общество с ограниченной ответственностью Учебный Центр <b>«АвтоМетод»</b>
+                        </p>
+                    </div>
                 </div>
             </div>
             <p className="copyright">

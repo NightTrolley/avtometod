@@ -86,7 +86,7 @@ const Header = () => {
                                 <div className="soc-links-list d-flex">
                                     <SocialComponent link={"https://t.me/AvtoMetodmsk"} icon={telegram_icon} alt={"telegram"}/>
                                     <SocialComponent link={"https://vk.com/avtometod"} icon={vk_icon} alt={"vk"}/>
-                                    <SocialComponent link={"/"} icon={wa_icon} alt={"whatsapp"}/>
+                                    <SocialComponent link={"https://wa.me/79999279039?text="} icon={wa_icon} alt={"whatsapp"}/>
                                 </div>
 
                             </div>
@@ -117,7 +117,7 @@ const Header = () => {
                         <div className="social-block">
                             <SocialComponent link={"https://t.me/AvtoMetodmsk"} icon={telegram_icon} alt={"telegram"}/>
                             <SocialComponent link={"https://vk.com/avtometod"} icon={vk_icon} alt={"vk"}/>
-                            <SocialComponent link={"/"} icon={wa_icon} alt={"whatsapp"}/>
+                            <SocialComponent link={"https://wa.me/79999279039?text="} icon={wa_icon} alt={"whatsapp"}/>
                         </div>
                         <div className="divider"></div>
                         <div className="button-wrapper col-2">

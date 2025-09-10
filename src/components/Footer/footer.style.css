@@ -30,3 +30,12 @@ footer {
 a {
     color: #000 !important;
 }
+
+.organisation-credentials {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.organisation-credentials p {
+    line-height: 1.6;
+}
