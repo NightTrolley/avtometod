@@ -2,8 +2,13 @@ import React from 'react';
 import FooterComponent from "../../components/Footer/footer.component";
 import "./contacts.page.css"
 import SecondaryButton from "../../components/Buttons/secondaryButton/secondaryButton";
+import {useModalContext} from "../../Context/modalContext";
+import FormModalComponent from "../../components/Modals/form.modal.component";
 
 const ContactsPage = () => {
+
+    const {isModalOpen, handleOpenModal, handleCloseModal} = useModalContext();
+
     return (
         <div>
             <div className="container text-center spacer-40">
@@ -27,7 +32,7 @@ const ContactsPage = () => {
                         info@avtometod.ru
                     </p>
                     <div className="button-wrapper">
-                        <SecondaryButton text={"Заказать звонок"}/>
+                        <SecondaryButton text={"Заказать звонок"} onClick={handleOpenModal}/>
                     </div>
                 </div>
                 <iframe
@@ -37,7 +42,10 @@ const ContactsPage = () => {
             <div className="container">
                 <FooterComponent/>
             </div>
-
+            <FormModalComponent
+                show={isModalOpen}
+                onHide={handleCloseModal}
+            />
         </div>
 
 
