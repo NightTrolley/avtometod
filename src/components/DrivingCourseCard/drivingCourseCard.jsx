@@ -1,6 +1,5 @@
 import React, {useRef, useState} from 'react';
 import "./driving.courses.style.css";
-import PrimaryButtonComponent from "../Buttons/primaryButton/primary.button.component";
 
 const DrivingCourseCard = ({course, handleOpenModal}) => {
 
@@ -39,7 +38,7 @@ const DrivingCourseCard = ({course, handleOpenModal}) => {
                         style={{color: activeBtn === "installment" ? course.color : "#000"}}
                         onClick={() => handleOptionClick("От 10000 в месяц", "installment")}
                 >
-                    Частями на 3 месяца
+                    Оплата в рассрочку
                 </button>
             </div>
 
