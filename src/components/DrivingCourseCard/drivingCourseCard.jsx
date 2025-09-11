@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, {useRef, useState} from 'react';
 import "./driving.courses.style.css";
 import PrimaryButtonComponent from "../Buttons/primaryButton/primary.button.component";
 
@@ -6,20 +6,48 @@ const DrivingCourseCard = ({course, handleOpenModal}) => {
 
     const inputRef = useRef(null);
 
+    const [currentPrice, setCurrentPrice] = useState(course.price)
+    const [activeBtn, setActiveBtn] = useState('full')
+
+    const handleOptionClick = (price, active) => {
+        setCurrentPrice(price)
+        setActiveBtn(active)
+    }
+
     return (
         <div className="course-card d-flex flex-column col-12 col-md-3"
-             style={{border: `2px solid ${course.color}`, color: course.color}}>
+             style={{border: `2px solid ${course.color}`, color: course.color}}
+        >
             <h3 className="course-title">{course.title}</h3>
             <p className="course-description">{course.description}</p>
 
             <div className="payment-options">
-                {course.paymentOptions.map((option, index) => (
-                    <span key={index} className="payment-option"
-                          style={{color: index === 0 ? course.color : "#000000"}}>{option}</span>
-                ))}
+                {/*{course.paymentOptions.map((option, index) => (*/}
+                {/*    <span key={index} className="payment-option"*/}
+                {/*          style={{color: index === 0 ? course.color : "#000000"}}>{option}</span>*/}
+                {/*))}*/}
+                <button
+                    type="button"
+                    className="btn payment-option"
+                    style={{color: activeBtn === "full" ? course.color : "#000"}}
+                    onClick={() => handleOptionClick(course.price, "full")}
+                >
+                    Оплата сразу
+                </button>
+                <button type="button"
+                        className="btn payment-option"
+                        style={{color: activeBtn === "installment" ? course.color : "#000"}}
+                        onClick={() => handleOptionClick("От 10000 в месяц", "installment")}
+                >
+                    Частями на 3 месяца
+                </button>
             </div>
 
-            <div className="course-price">{course.price}</div>
+            <div className="course-price"
+                 style={{fontSize: activeBtn === "installment" ? "30px" : "39px"}}
+            >
+                {currentPrice}
+            </div>
 
             <button className="apply-button align-items-center d-flex justify-content-center"
                     style={{backgroundColor: course.color}} onClick={() => {
