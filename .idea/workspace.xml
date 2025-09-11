@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddb1d06-c7f7-4d59-816d-b47264a45f75" name="Changes" comment="change phone link">
+    <list default="true" id="3ddb1d06-c7f7-4d59-816d-b47264a45f75" name="Changes" comment="some changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/body.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/body.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Forms/mainForm.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/mainForm.component.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +20,8 @@
       <list>
         <option value="TypeScript JSX File" />
         <option value="JSX File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -158,79 +157,7 @@
       <workItem from="1756373479454" duration="2452000" />
       <workItem from="1756380436745" duration="54436000" />
       <workItem from="1756729986209" duration="1000" />
-      <workItem from="1756730004844" duration="33753000" />
-    </task>
-    <task id="LOCAL-00026" summary="fix course content texts">
-      <option name="closed" value="true" />
-      <created>1756422150654</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1756422150654</updated>
-    </task>
-    <task id="LOCAL-00027" summary="fix moto image">
-      <option name="closed" value="true" />
-      <created>1756422540429</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1756422540429</updated>
-    </task>
-    <task id="LOCAL-00028" summary="fix header links">
-      <option name="closed" value="true" />
-      <created>1756422821005</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1756422821005</updated>
-    </task>
-    <task id="LOCAL-00029" summary="remove instagram icon">
-      <option name="closed" value="true" />
-      <created>1756422861750</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1756422861750</updated>
-    </task>
-    <task id="LOCAL-00030" summary="fix free lesson form">
-      <option name="closed" value="true" />
-      <created>1756423247002</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1756423247002</updated>
-    </task>
-    <task id="LOCAL-00031" summary="fix fleet card texts">
-      <option name="closed" value="true" />
-      <created>1756423484874</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1756423484874</updated>
-    </task>
-    <task id="LOCAL-00032" summary="fix car card button">
-      <option name="closed" value="true" />
-      <created>1756423944443</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1756423944443</updated>
-    </task>
-    <task id="LOCAL-00033" summary="add our fleet form">
-      <option name="closed" value="true" />
-      <created>1756425882729</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1756425882729</updated>
-    </task>
-    <task id="LOCAL-00034" summary="some fixes">
-      <option name="closed" value="true" />
-      <created>1756426761232</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1756426761232</updated>
+      <workItem from="1756730004844" duration="50139000" />
     </task>
     <task id="LOCAL-00035" summary="fix free lesson form">
       <option name="closed" value="true" />
@@ -552,7 +479,79 @@
       <option name="project" value="LOCAL" />
       <updated>1756979164301</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1756988026777</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1756988026778</updated>
+    </task>
+    <task id="LOCAL-00076" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1757076470464</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1757076470465</updated>
+    </task>
+    <task id="LOCAL-00077" summary="add quiz form name on send data">
+      <option name="closed" value="true" />
+      <created>1757077396632</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1757077396632</updated>
+    </task>
+    <task id="LOCAL-00078" summary="add utm parsing">
+      <option name="closed" value="true" />
+      <created>1757099624571</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1757099624571</updated>
+    </task>
+    <task id="LOCAL-00079" summary="add pay page link in mobile menu">
+      <option name="closed" value="true" />
+      <created>1757106235583</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1757106235583</updated>
+    </task>
+    <task id="LOCAL-00080" summary="change quiz and achievement block position">
+      <option name="closed" value="true" />
+      <created>1757106519342</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1757106519342</updated>
+    </task>
+    <task id="LOCAL-00081" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1757546650301</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1757546650301</updated>
+    </task>
+    <task id="LOCAL-00082" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1757550860182</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1757550860182</updated>
+    </task>
+    <task id="LOCAL-00083" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1757550952988</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1757550952989</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,11 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add contact page" />
-    <MESSAGE value="remove vacancy links" />
-    <MESSAGE value="some changes" />
-    <MESSAGE value="adapted page for mobile" />
-    <MESSAGE value="change course prices" />
     <MESSAGE value="fix online link" />
     <MESSAGE value="add form" />
     <MESSAGE value="add cars in fleet list" />
@@ -595,7 +589,12 @@
     <MESSAGE value="add yandex metrika" />
     <MESSAGE value="add social links" />
     <MESSAGE value="change phone link" />
-    <option name="LAST_COMMIT_MESSAGE" value="change phone link" />
+    <MESSAGE value="add quiz form name on send data" />
+    <MESSAGE value="add utm parsing" />
+    <MESSAGE value="add pay page link in mobile menu" />
+    <MESSAGE value="change quiz and achievement block position" />
+    <MESSAGE value="some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
