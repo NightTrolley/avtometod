@@ -1,5 +1,5 @@
-import React from 'react';
-import {useForm} from "react-hook-form";
+import React, {useState} from 'react';
+import {set, useForm} from "react-hook-form";
 import {ErrorMessage} from "@hookform/error-message";
 import SecondaryButton from "../Buttons/secondaryButton/secondaryButton";
 import "./main.form.css"
@@ -10,25 +10,16 @@ import {InputMask} from "@react-input/mask";
 
 const MainFormComponent = ({button_text}) => {
 
-    const {
-        register,
-        handleSubmit,
-        formState: {errors, isSubmitting}
-    } = useForm({
-        criteriaMode: "all",
-        defaultValues: {
-            "your-tel": "+7"
-        },
-    });
-
+    const [isSubmitting, setIsSubmitting]  = useState(false)
 
     const onSubmit = async (e) => {
         e.preventDefault()
         const formData = new FormData(e.target);
         const data = Object.fromEntries(formData.entries());
-
-        console.log(data);
-        await sendFormData(data)
+        setIsSubmitting(true)
+        if (await sendFormData(data)) {
+            setIsSubmitting(false)
+        }
 
     }
 

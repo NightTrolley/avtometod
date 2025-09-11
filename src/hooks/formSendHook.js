@@ -11,7 +11,7 @@ export const sendFormData = async (data) => {
         );
         console.log("Отправленные данные", data)
         console.log("Успешный ответ:", response);
-        return response.data;
+        return true;
     } catch (e) {
         console.error("Ошибка отправки:", e);
         if (e.response) {
