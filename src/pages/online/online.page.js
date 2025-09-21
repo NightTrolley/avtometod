@@ -1,5 +1,4 @@
 import React from 'react';
-import SecondaryButton from "../../components/Buttons/secondaryButton/secondaryButton";
 import "./online.page.styles.css"
 import FooterComponent from "../../components/Footer/footer.component";
 import MainFormComponent from "../../components/Forms/mainForm.component";
@@ -24,9 +23,7 @@ const OnlinePage = () => {
 
                         <p className="steps">
                             1. Оставьте заявку на сайте или по телефону.<br></br>
-                            2. Заключите договор и оплатите курс.<br></br>
-                            3. Приступайте к вождению – инструктор свяжется с вами
-                            в течение 1–2 дней.
+                            2. Заключите договор и оплатите курс.
                         </p>
                     </div>
                     <div className="form-wrapper col-12 col-md-5">

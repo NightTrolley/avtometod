@@ -11,7 +11,7 @@ const EducationBPage = () => {
     return (
         <div>
             <div className="education-b-page container-fluid container-md">
-                <h1 className="page-title">Категория Б – обучение на автомобиль</h1>
+                <h1 className="page-title">Категория B – обучение на автомобиль</h1>
                 <h2 className="practice-with-instructor col-12 col-md-9">Практические занятия с опытным
                     инструктором</h2>
                 <p className="description col-12">
