@@ -23,6 +23,19 @@ const MainFormComponent = ({button_text}) => {
 
     }
 
+    const track = ({data, inputType,value, selectionStart, selectionEnd}) => {
+        if (inputType === 'insert' && selectionStart <= 1) {
+            const _data = data.replace(/[^\d]/g, '');
+            return /^[78]/.test(_data) ? `7${_data.slice(1)}` : /^[0-69]/.test(_data) ? `7${_data}` : data;
+        }
+
+        if (inputType !== 'insert' && selectionStart <= 1 && selectionEnd < value.length) {
+            return selectionEnd > 2 ? '7' : selectionEnd === 2 ? false : data;
+        }
+
+        return data
+    }
+
     return (
         <form className={"how-to-start-form d-flex flex-column"}
               onSubmit={onSubmit}
@@ -35,13 +48,14 @@ const MainFormComponent = ({button_text}) => {
                     name={"your-name"}
                 />
                 <InputMask
-                    mask={"+7 (___) ___-__-__"}
+                    mask={"+_ (___) ___-__-__"}
                     replacement={{ _: /\d/ }}
                     placeholder={"+7"}
                     className="col-12"
                     required={true}
                     name={"your-phone"}
                     minLenght={12}
+                    track={track}
                 />
             <SecondaryButton text={button_text} type={"submit"} isSubmitting={isSubmitting}/>
         </form>
