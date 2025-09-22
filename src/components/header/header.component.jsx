@@ -14,6 +14,7 @@ import {Link, NavLink} from "react-router";
 import React, {useEffect, useState} from "react";
 import {useLocation} from "react-router-dom";
 import FormModalComponent from "../Modals/form.modal.component";
+import {useModalContext} from "../../Context/modalContext";
 
 const Header = () => {
 
@@ -30,15 +31,7 @@ const Header = () => {
         closeMenu();
     }, [location]);
 
-    const [isModalOpen, setIsModalOpen] = useState(false);
-
-    const handleOpenModal = () => {
-        setIsModalOpen(true);
-    };
-
-    const handleCloseModal = () => {
-        setIsModalOpen(false);
-    };
+    const {isModalOpen, handleOpenModal, handleCloseModal} = useModalContext();
 
     return (
         <div className="container-fluid g-0">

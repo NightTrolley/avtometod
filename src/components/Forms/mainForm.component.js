@@ -7,20 +7,29 @@ import {useQuiz} from "../../Context/quizContext";
 import axios from "axios";
 import {formSendHook, sendFormData} from "../../hooks/formSendHook";
 import {InputMask} from "@react-input/mask";
+import {useModalContext} from "../../Context/modalContext";
 
 const MainFormComponent = ({button_text}) => {
 
     const [isSubmitting, setIsSubmitting]  = useState(false)
+    const {handleCloseModal} = useModalContext();
 
     const onSubmit = async (e) => {
         e.preventDefault()
         const formData = new FormData(e.target);
         const data = Object.fromEntries(formData.entries());
         setIsSubmitting(true)
-        if (await sendFormData(data)) {
+
+        try {
+            const success = await sendFormData(data)
+            if (success) {
+               handleCloseModal()
+            }
+        } catch (error) {
+            console.error('Ошибка отправки формы:', error)
+        } finally {
             setIsSubmitting(false)
         }
-
     }
 
     const track = ({data, inputType,value, selectionStart, selectionEnd}) => {
