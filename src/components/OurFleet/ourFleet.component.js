@@ -4,7 +4,6 @@ import {fleetData} from "../../config/fleet.data";
 import PrimaryButtonComponent from "../Buttons/primaryButton/primary.button.component";
 
 const OurFleetComponent = ({handleOpenModal}) => {
-    console.log(handleOpenModal)
     return (
         <div className="car_card_wrapper justify-content-center row g-0">
         {fleetData.map((item) => (

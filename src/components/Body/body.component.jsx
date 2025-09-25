@@ -32,10 +32,12 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import {Zoom} from "swiper/modules";
 import 'swiper/css/zoom';
 import 'swiper/css';
+import LicenseSliderComponent from "../license/license.slider.component";
 
 const BodyComponent = () => {
 
     const {isModalOpen, handleOpenModal, handleCloseModal} = useModalContext();
+
 
     return (
         <div className="container-md g-md-0 container-fluid">
@@ -160,21 +162,7 @@ const BodyComponent = () => {
                     <SecondaryButton text={"Посмотреть еще автомобили"}/>
                 </div>
             </section>
-            <section className="license d-none">
-                <Swiper
-                    modules={[Zoom]}
-                    zoom={true}
-                >
-                    <SwiperSlide>
-                        <div className="col-12 swiper-zoom-container">
-                            <img src="/license/license-1.png" alt="" className="img-fluid"/>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="/license/license-2.png" alt=""/>
-                    </SwiperSlide>
-                </Swiper>
-            </section>
+            {/*<LicenseSliderComponent/>*/}
             <section className="reviews d-none spacer">
                 <div className="reviews-wrapper row g-0">
                     {reviewData.slice(0, 3).map(review => (
@@ -206,7 +194,7 @@ const BodyComponent = () => {
                     </p>
                     <Accordion flush>
                         {faqData.map(faq => (
-                            <FaqItem id={faq.id} question={faq.question} answer={faq.answer}/>
+                            <FaqItem id={faq.id} question={faq.question} answer={faq.answer} key={faq.id}/>
                         ))}
                     </Accordion>
                 </div>

@@ -70,7 +70,7 @@ const DrivingCourseCard = ({course, handleOpenModal}) => {
                 <span>{course.drivingHours}</span>
                 &nbsp;часов вождения
             </div>
-            <input type="text" hidden={true} value={course.title} ref={inputRef}/>
+            <input type="text" hidden={true} value={course.title} ref={inputRef} readOnly={true}/>
         </div>
     );
 };

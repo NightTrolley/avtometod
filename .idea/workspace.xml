@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ddb1d06-c7f7-4d59-816d-b47264a45f75" name="Changes" comment="some changes">
+    <list default="true" id="3ddb1d06-c7f7-4d59-816d-b47264a45f75" name="Changes" comment="add footer">
+      <change afterPath="$PROJECT_DIR$/src/components/license/license.slider.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Forms/mainForm.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/mainForm.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/body.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/body.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/body.style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/body.style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Comparison/comparison.card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Comparison/comparison.card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DrivingCourseCard/drivingCourseCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DrivingCourseCard/drivingCourseCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OurFleet/ourFleet.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OurFleet/ourFleet.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/news.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/news.data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,24 +57,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/agairbekov/WebstormProjects/automethod/public",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "npm.npm start.executor": "Run",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/agairbekov/WebstormProjects/automethod/public&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -157,55 +161,9 @@
       <workItem from="1756373479454" duration="2452000" />
       <workItem from="1756380436745" duration="54436000" />
       <workItem from="1756729986209" duration="1000" />
-      <workItem from="1756730004844" duration="50139000" />
-    </task>
-    <task id="LOCAL-00035" summary="fix free lesson form">
-      <option name="closed" value="true" />
-      <created>1756427149523</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1756427149523</updated>
-    </task>
-    <task id="LOCAL-00036" summary="fix pay card">
-      <option name="closed" value="true" />
-      <created>1756427406060</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1756427406060</updated>
-    </task>
-    <task id="LOCAL-00037" summary="fix free lesson form">
-      <option name="closed" value="true" />
-      <created>1756427481517</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1756427481517</updated>
-    </task>
-    <task id="LOCAL-00038" summary="add mobile menu collapse effect of page change">
-      <option name="closed" value="true" />
-      <created>1756477933232</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1756477933232</updated>
-    </task>
-    <task id="LOCAL-00039" summary="add online page">
-      <option name="closed" value="true" />
-      <created>1756486080063</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1756486080063</updated>
-    </task>
-    <task id="LOCAL-00040" summary="fix about page">
-      <option name="closed" value="true" />
-      <created>1756494756770</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1756494756771</updated>
+      <workItem from="1756730004844" duration="50841000" />
+      <workItem from="1758490946760" duration="21000" />
+      <workItem from="1758491005771" duration="8414000" />
     </task>
     <task id="LOCAL-00041" summary="fix online page">
       <option name="closed" value="true" />
@@ -551,7 +509,55 @@
       <option name="project" value="LOCAL" />
       <updated>1757550952989</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1757552838215</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1757552838215</updated>
+    </task>
+    <task id="LOCAL-00085" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1757553270367</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1757553270367</updated>
+    </task>
+    <task id="LOCAL-00086" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1758491633584</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1758491633585</updated>
+    </task>
+    <task id="LOCAL-00087" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1758566273476</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1758566273476</updated>
+    </task>
+    <task id="LOCAL-00088" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1758569603849</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1758569603849</updated>
+    </task>
+    <task id="LOCAL-00089" summary="add footer">
+      <option name="closed" value="true" />
+      <created>1758828162325</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1758828162325</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +575,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix online link" />
     <MESSAGE value="add form" />
     <MESSAGE value="add cars in fleet list" />
     <MESSAGE value="delete blog link" />
@@ -594,7 +599,8 @@
     <MESSAGE value="add pay page link in mobile menu" />
     <MESSAGE value="change quiz and achievement block position" />
     <MESSAGE value="some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
+    <MESSAGE value="add footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

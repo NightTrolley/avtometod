@@ -7,7 +7,7 @@ const ComparisonCard = () => {
         <div className="comparison-card row g-0">
             <div className="title-wrapper flex-column col-5">
                 {ComparisonData.map(comparison => (
-                    <div className="title col-12">
+                    <div className="title col-12" key={comparison.id}>
                         {comparison.title}
                     </div>
                 ))}
@@ -16,14 +16,14 @@ const ComparisonCard = () => {
             <div className="price-card-wrapper row g-0 col-7">
                 <div className="other-school-price flex-column d-flex col-5">
                     {ComparisonData.map(comparison => (
-                        <span>
+                        <span key={comparison.id}>
                             {comparison.otherSchoolPrice}
                         </span>
                     ))}
                 </div>
                 <div className="our-school-price col-5 flex-column d-flex">
                     {ComparisonData.map(comparison => (
-                        <span>
+                        <span key={comparison.id}>
                             {comparison.ourSchoolPrice}
                         </span>
                     ))}

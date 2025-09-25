@@ -332,3 +332,8 @@ h3 {
     margin-top: 110px;
     margin-bottom: 110px;
 }
+
+.license-img {
+    width: 400px !important;
+    height: 400px !important;
+}
