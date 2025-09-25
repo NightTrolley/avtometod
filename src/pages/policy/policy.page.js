@@ -1,4 +1,5 @@
 import React from 'react';
+import FooterComponent from "../../components/Footer/footer.component";
 
 const PolicyPage = () => {
     return (
@@ -81,6 +82,7 @@ const PolicyPage = () => {
                 8<br/>&nbsp;info@avtometod.ru<br/><strong>&nbsp;Режим работы:</strong>&nbsp;ВТ-СБ: 11:00&ndash;20:00,
                 ПН-ВС: выходной<br/>&copy; 2024&ndash;2025</p>
             <p>&nbsp;</p>
+            <FooterComponent/>
         </div>
     );
 };
