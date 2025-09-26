@@ -28,8 +28,6 @@ import {useForm} from "../../hooks/useForm";
 import QuizComponent from "../Quiz/quiz.component";
 import {useModalContext} from "../../Context/modalContext";
 import MainFormComponent from "../Forms/mainForm.component";
-import {Swiper, SwiperSlide} from "swiper/react";
-import {Zoom} from "swiper/modules";
 import 'swiper/css/zoom';
 import 'swiper/css';
 import LicenseSliderComponent from "../license/license.slider.component";
@@ -162,7 +160,7 @@ const BodyComponent = () => {
                     <SecondaryButton text={"Посмотреть еще автомобили"}/>
                 </div>
             </section>
-            {/*<LicenseSliderComponent/>*/}
+            <LicenseSliderComponent/>
             <section className="reviews d-none spacer">
                 <div className="reviews-wrapper row g-0">
                     {reviewData.slice(0, 3).map(review => (

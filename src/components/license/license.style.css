@@ -1,0 +1,7 @@
+.license .swiper-slide {
+    width: fit-content !important;
+}
+
+.license .swiper-wrapper {
+    justify-content: center;
+}
