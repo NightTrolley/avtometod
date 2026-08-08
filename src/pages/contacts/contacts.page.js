@@ -25,7 +25,7 @@ const ContactsPage = () => {
                     </p>
                     <p className="phone">
                         <span>Телефон: </span><br></br>
-                        <a href="tel:+7 (495) 019-95-88">+7 (495) 019-95-88</a>
+                        <a href="tel:+7 (999) 927-90-39">+7 (999) 927-90-39</a>
                     </p>
                     <p className="email">
                         <span>email:</span><br></br>

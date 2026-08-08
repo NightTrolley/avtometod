@@ -189,7 +189,7 @@ export default function About() {
                         <p>📍 <span>Адреса филиалов:</span> по всей Москве</p>
                     </div>
                     <div className="contact-item col-md">
-                        <p>📞 <span>Телефон:</span> +7 (495) 019-95-88</p>
+                        <p>📞 <span>Телефон:</span> +7 (999) 927-90-39</p>
                     </div>
                     <div className="contact-item col-md">
                         <p>🌐 <span>Сайт:</span> avtometod.ru</p>

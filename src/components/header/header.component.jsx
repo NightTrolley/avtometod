@@ -92,7 +92,7 @@ const Header = () => {
                                     Киевская улица, 14
                                 </p>
                                 <p className="phone-number">
-                                    <a href="tel:+7 (495) 019-95-88">+7 (495) 019-95-88</a>
+                                    <a href="tel:+7 (999) 927-90-39">+7 (999) 927-90-39</a>
                                 </p>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ const Header = () => {
                     <NavbarCollapse>
                         <div className="contact-wrapper col row g-0">
                             <NavitemComponent class={"phone_block col-4"} firstText={"Номер телефона"}
-                                              secondText={<a href={"tel:+7 (495) 019-95-88"}>+7 (495) 019-95-88</a>} icon={phone_icon}/>
+                                              secondText={<a href={"tel:+7 (999) 927-90-39"}>+7 (999) 927-90-39</a>} icon={phone_icon}/>
                             <NavitemComponent class={"email_block col-4"} firstText={"E-mail"}
                                               secondText={"info@avtometod.ru"}
                                               icon={email_icon}/>
